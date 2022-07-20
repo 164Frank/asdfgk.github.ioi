@@ -1,0 +1,58 @@
+<header class="main-header"><!--cabecera principal-->
+        <div class="background-overlay text-white py-5">
+            <div class="container" >
+                <div class="row">
+                    <div class="col-md-6 text-center justify-content-center align-self-center"><!--agregamos una nueva clase 
+                        (justify-content-center align-self-center)-->
+                        <h4>EXAMEN CEPRE UNA</h1>
+                        <h2>07 de agosto del 2022</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum illo non labore sint enim doloribus!
+                        </p>
+                        <a href="ExCepre.html" class="btn btn-outline-secondary btn-lg text-black ">MAS INFORMACION</a> 
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    CSS 
+    .main-header{
+    background: url(/IMAGENES/1UNA/1UNA.png);
+    background-size: cover;
+    background-position: center;
+    min-height: 600px; 
+    padding-top: 50px;   
+}
+--------------------------
+<ul class="breadcrumb pr-0 mb-0 redes-sociales">
+        <li>
+            <a href="https://www.facebook.com/1551UNMSM" target="_blank" class="social-link mx-1">
+                <i class="fab fa-facebook-f" aria-hidden="true"></i>
+            </a>
+        </li>
+        <li>
+            <a href="https://www.instagram.com/unmsm_/" target="_blank" class="social-link mx-1">
+                <i class="fab fa-instagram" aria-hidden="true"></i>
+            </a>
+        </li>
+        <li>
+            <a href="https://twitter.com/UNMSM_" target="_blank" class="social-link mx-1">
+                <i class="fab fa-twitter" aria-hidden="true"></i>
+            </a>
+        </li>
+        <li>
+            <a href="https://www.youtube.com/user/RTVSanMarcos" target="_blank" class="social-link mx-1">
+                <i class="fab fa-youtube" aria-hidden="true"></i>
+            </a>
+        </li>
+        <li>
+            <a href="https://pe.linkedin.com/school/unmsm/" target="_blank" class="social-link mx-1">
+                <i class="fab fa-linkedin" aria-hidden="true"></i>
+            </a>
+        </li>
+        <li>
+            <a href="https://www.tiktok.com/@unmsm?lang=es" target="_blank" class="social-link mx-1">
+                <i class="fab fa-tiktok" aria-hidden="true"></i>
+            </a>
+        </li>
+</ul>

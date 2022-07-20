@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AdmisionUNA2022</title>
+    <!--AGREGAR BOOTSTRAP y FONTAWASOME-->
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <script src="https://kit.fontawesome.com/89d9e04610.js" crossorigin="anonymous"></script>
+    <!----------SE ENLAZA BOOTSTRAP CON maincss.css------------>
+    <link rel="stylesheet" href="/css/ProAnterioresCSS.css">
+
+    <!--------FUENTE 1-------->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+
+    <!-----------------AGREGAMOS ICONOS DE BOOTSTRAP---------------->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+
+</head>
+<body>
+<!------NAV BAR + PORTADA-------->  
+<!--B A R R A  D E  N A V E G A C I O N---------INICIO-->
+<!--bootstarp navbar-->
+    <nav class="navbar navbar-expand-lg navbar-dark sticky-top"> 
+        <!--COMIENZO PARA CAMBIAR COLOR DE LA BARRA (navbar-light bg-light)
+        (cambiamos navbar-dark bg-dark por )=(nav class="navbar navbar-light" style="background-color: #006cb1;")-->
+        <div class="container"><!---agregamos contenedor (.container)-->
+            <!---ajustes para poner logo y tamaño de imagen-->
+            <a class="navbar-brand" href="/"><!--cambiamos # por un / para que nos lleve a la pagina inicial-->
+            <img src="/IMAGENES/logouna.png" alt="logo UNA" style="width: 120%;" ></a>
+            <button 
+                    
+                    class="navbar-toggler" 
+                    data-toggle="collapse" 
+                    data-target="#navbarNav" 
+                    aria-controls="navbarNav"
+                    aria-expanded="false"> 
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto"> <!--le agregamos (lm-auto) para que la navegacion este a la izquierda-->
+                <li class="nav-item"><!--ELIMINAMOS active-->
+                     <a class="nav-link " href="index.html">INICIO</a> <!--eliminamos <span class="sr-only">(current)</span>-->
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link " href="carrerashtml.html">CARRERAS</a>
+                </li>
+
+                <!---SUB ELEMENTOS--INICIO-->
+                <li class="nav-item dropdown">
+                    <a 
+                    class="nav-link dropdown-toggle fw-bold" 
+                    id="btn-dropdown-pregrado" 
+                    data-toggle="dropdown" 
+                    aria-haspopup="true" 
+                    aria-expanded="false" 
+                    href="#"
+                    >PREGRADO</a>
+                    <!---SUB ELEMENTOS---CONTENIDO---INICIO-->
+                    <div class="dropdown-menu" aria-labelledby="btn-dropdown-pregrado">
+                        <a href="ExCepre.html" class="dropdown-item">Examen CEPREUNA</a>
+                        <a href="ExGeneral.html" class="dropdown-item">Examen GENERAL</a>
+                        
+                        <a href="ProAnteriores.html" class="dropdown-item">PROCESOS DE ADMISIÓN ANTERIORES</a>
+
+                    </div>
+                    <!---SUB ELEMENTOS---CONTENIDO---FIN-->
+                </li>
+                <!---SUB ELEMENTOS--FIN-->
+
+
+                <li class="nav-item">
+                    <a class="nav-link " href="http://posgradounap.pe/">POSGRADO</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link " href="CounterGeneral">SEGUNDA ESPECIALIDAD</a>
+                </li>
+            </ul>
+            </div>
+        </div>        
+    </nav>
+<!--B A R R A  D E  N A V E G A C I O N-----FIN---->
+   
+
+   
+    <header>
+        
+    </header>
+
+    <section>
+
+        <div class="container py-5">
+            <h3 class="text-center">PROCESOS DE ADMISIÓN ANTERIORES <br>REGLAMENTO DE ADMISIÓN E INGRESANTES <hr></h3>
+            <div class="d-flex align-items-start">
+                <div class="nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                  <button class="nav-link active" id="v-pills-home-tab" data-bs-toggle="pill" data-bs-target="#v-pills-home" type="button" role="tab" aria-controls="v-pills-home" aria-selected="true">2022</button>
+                  <button class="nav-link" id="v-pills-profile-tab" data-bs-toggle="pill" data-bs-target="#v-pills-profile" type="button" role="tab" aria-controls="v-pills-profile" aria-selected="false">2021</button>
+                  <button class="nav-link" id="v-pills-messages-tab" data-bs-toggle="pill" data-bs-target="#v-pills-messages" type="button" role="tab" aria-controls="v-pills-messages" aria-selected="false">2020</button>
+                  <button class="nav-link" id="v-pills-settings-tab" data-bs-toggle="pill" data-bs-target="#v-pills-settings" type="button" role="tab" aria-controls="v-pills-settings" aria-selected="false">2019</button>
+                </div>
+
+                <div class="tab-content" id="v-pills-tabContent">
+                  <div class="tab-pane fade show active" id="v-pills-home" 
+                  role="tabpanel" aria-labelledby="v-pills-home-tab"
+                    > 
+
+                        <div class="row" id="box-font-color">
+                            <div class="col-sm-6 py-3">
+                                <div class="card">
+                                    <div class="card-body">
+                                    <h5 class="card-title">INGRESANTES</h5>
+                                    <p class="card-text">Descargar lista de ingrasantes, a la Universidad Nacional del Altiplano; en PDF.</p>
+                                    <a href="#" class="btn btn-primary">2022-I</a>
+                                    <a href="#" class="btn btn-primary">2022-II</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 py-3">
+                                <div class="card">
+                                    <div class="card-body">
+                                    <h5 class="card-title">REGLAMENTO DE ADMISIÓN</h5>
+                                    <p class="card-text">Descargar reglamento de admisión, a la Universidad Nacional del Altiplano; en PDF.</p>
+                                    <a href="#" class="btn btn-primary ">2022-I</a>
+                                    <a href="#" class="btn btn-primary">2022-II</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+
+
+                  <div class="tab-pane fade" id="v-pills-profile" 
+                  role="tabpanel" aria-labelledby="v-pills-profile-tab"
+                    >
+                        <div class="row" id="#">
+                            <div class="col-sm-6 py-3">
+                                <div class="card">
+                                    <div class="card-body">
+                                    <h5 class="card-title">INGRESANTES</h5>
+                                    <p class="card-text">Descargar lista de ingrasantes, a la Universidad Nacional del Altiplano; en PDF.</p>
+                                    <a href="#" class="btn btn-primary">2021-I</a>
+                                    <a href="#" class="btn btn-primary">2021-II</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 py-3">
+                                <div class="card">
+                                    <div class="card-body">
+                                    <h5 class="card-title">REGLAMENTO DE ADMISIÓN</h5>
+                                    <p class="card-text">Descargar reglamento de admisión, a la Universidad Nacional del Altiplano; en PDF.</p>
+                                    <a href="#" class="btn btn-primary ">2021-I</a>
+                                    <a href="#" class="btn btn-primary">2021-II</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>   
+
+                    </div>
+
+
+                  <div class="tab-pane fade" id="v-pills-messages" 
+                  role="tabpanel" aria-labelledby="v-pills-messages-tab"
+                  >
+                        <div class="row" id="box-font-color">
+                            <div class="col-sm-6 py-3">
+                                <div class="card">
+                                    <div class="card-body">
+                                    <h5 class="card-title">INGRESANTES</h5>
+                                    <p class="card-text">Descargar lista de ingrasantes, a la Universidad Nacional del Altiplano; en PDF.</p>
+                                    <a href="#" class="btn btn-primary">2020-I</a>
+                                    <a href="#" class="btn btn-primary">2020-II</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 py-3">
+                                <div class="card">
+                                    <div class="card-body">
+                                    <h5 class="card-title">REGLAMENTO DE ADMISIÓN</h5>
+                                    <p class="card-text">Descargar reglamento de admisión, a la Universidad Nacional del Altiplano; en PDF.</p>
+                                    <a href="#" class="btn btn-primary ">2020-I</a>
+                                    <a href="#" class="btn btn-primary">2020-II</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                
+                    </div>
+
+                  
+                  <div class="tab-pane fade" id="v-pills-settings" 
+                  role="tabpanel" aria-labelledby="v-pills-settings-tab"
+                  >
+                        <div class="row" id="#">
+                            <div class="col-12 col-sm-12 col-md-12 py-3">
+                                <div class="card">
+                                    <div class="card-body">
+                                    <h5 class="card-title">INGRESANTES</h5>
+                                    <p class="card-text">Descargar lista de ingrasantes, a la Universidad Nacional del Altiplano; en PDF.</p>
+                                    <a href="#" class="btn btn-primary ">2019-I</a>
+                                    <a href="#" class="btn btn-primary ">2019-II</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-sm-12 col-md-12 py-3">
+                                <div class="card">
+                                    <div class="card-body">
+                                    <h5 class="card-title">REGLAMENTO DE ADMISIÓN</h5>
+                                    <p class="card-text">Descargar reglamento de admisión, a la Universidad Nacional del Altiplano; en PDF.</p>
+                                    <a href="#" class="btn btn-primary ">2019-I</a>
+                                    <a href="#" class="btn btn-primary">2019-II</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+
+                </div>
+              </div>
+        </div>
+    </section>
+   
+
+     
+
+
+
+
+
+       
+
+
+
+             
+<!-------------FOOTER------------------>   
+    <!-------------S E C S I O N  P I E   D E   P A G I N A------------->
+    <footer class="footer-all text-white" id="font-footer">
+        <!---------------------------------------------GRUPO 1-->
+        <div class="group-one">
+            <div class="box">
+                <h5><b>Contáctanos</b></h5>
+                
+                    <div class="d-flex flex-row">
+                        <div class="p-2"><i class="bi bi-building"></i></div>
+                        <div class="p-2"><h6 class="font-weight-bold titles-colors-direccion mb-3"
+                            >Dirección: Av. Floral N° 1153 - UNA PUNO. <br>
+                            Tercer Piso, Vicerectorado de Investigación  </h6></div>
+                    </div>
+
+
+                    <div class="d-flex flex-row">
+                        <div class="p-2"><i class="bi bi-envelope-fill"></i></div>
+                        <div class="p-2"><h6 class="font-weight-bold titles-colors-direccion mb-3"
+                            >Escribenos: <br> admision@unap.edu.pe</h6></div>
+                    </div>
+
+            </div>
+
+            
+        
+
+        <!---------------------------------------------GRUPO 2-->    
+            <div class="box">
+                <h5><b>Redes Sociales</b></h5>
+                    <div class="social-networks">
+                        <a href="https://www.facebook.com/dadunapuno" class="bi bi-facebook"></a>
+                        <a href="https://www.instagram.com/unapuno_oficial/" class="bi bi-instagram "></a>
+                        <a href="https://www.youtube.com/channel/UCEta0e663FgxvYgCABhGl6w" class="bi bi-youtube"></a>
+                        <a href="https://www.linkedin.com/school/universidad-nacional-del-altiplano/" class="bi bi-linkedin "></a>
+                        <a href="https://www.tiktok.com/@una_puno_oficial" class="bi bi-tiktok"></a>
+                    </div> 
+                    
+            </div>
+        <!---------------------------------------------GRUPO 3-->    
+            <div class="box">
+                <h5><b>Ubicación</b></h5>
+                    <div class="d-flex flex-row">
+                        <div class="p-2"><i class="bi bi-geo-alt-fill"></i></div>
+                        <div class="p-2"><h6 class="font-weight-bold titles-colors-direccion mb-3"
+                            >Google Maps</h6></div>
+                    </div>
+                <div class="responsive-iframe">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1193.6387507796326!2d-70.0173111269694!3d-15.824831952946639!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x915d69d15f665f99%3A0x4acadf74d11d2f62!2sDIRECCI%C3%93N%20DE%20ADMISI%C3%93N!5e1!3m2!1ses-419!2spe!4v1656198885016!5m2!1ses-419!2spe" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>    
+
+            </div>
+        </div>
+        <!---------------------------------------------GRUPO 2-->
+        <div class="group-two">
+            <small>&copy;2022 <b>Dirección de Admision</b> All Rights Reserved.</small>
+        </div>
+
+
+        
+    </footer>    
+  
+
+   
+          <!--Agregamos Javascrip de Bootstrap-->
+          <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+          <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+          <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+          <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+          <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>    
+</body>
+</html>

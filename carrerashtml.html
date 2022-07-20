@@ -1,0 +1,749 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="IMAGENES/logodad.png">
+    <title>Carreras UNA PUNO</title>
+    <!--AGREGAR BOOTSTRAP-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-----------------AGREGAMOS ICONOS DE BOOTSTRAP---------------->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+
+    <!----------SE ENLAZA BOOTSTRAP CON maincss.css------------>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+<!--B A R R A  D E  N A V E G A C I O N-->
+<!--bootstarp navbar-->
+    <nav class="navbar navbar-expand-lg navbar-dark sticky-top"> 
+        <!--COMIENZO PARA CAMBIAR COLOR DE LA BARRA (navbar-light bg-light)
+        (cambiamos navbar-dark bg-dark por )=(nav class="navbar navbar-light" style="background-color: #006cb1;")-->
+        <div class="container"><!---agregamos contenedor (.container)-->
+            <!---ajustes para poner logo y tamaño de imagen-->
+            <a class="navbar-brand" href="/"><!--cambiamos # por un / para que nos lleve a la pagina inicial-->
+            <img src="IMAGENES/logouna.png" alt="logo UNA" style="width: 120%;" ></a>
+            <button 
+                    
+                    class="navbar-toggler" 
+                    data-toggle="collapse" 
+                    data-target="#navbarNav" 
+                    aria-controls="navbarNav"
+                    aria-expanded="false"> 
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto"> <!--le agregamos (lm-auto) para que la navegacion este a la izquierda-->
+                <li class="nav-item"><!--ELIMINAMOS active-->
+                    <a class="nav-link " href="index.html">INICIO</a> <!--eliminamos <span class="sr-only">(current)</span>-->
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link " href="carrerashtml.html">CARRERAS</a>
+                </li>
+
+                <!---SUB ELEMENTOS--INICIO-->
+                <li class="nav-item dropdown">
+                    <a 
+                    class="nav-link dropdown-toggle fw-bold" 
+                    id="btn-dropdown-pregrado" 
+                    data-toggle="dropdown" 
+                    aria-haspopup="true" 
+                    aria-expanded="false" 
+                    href="#"
+                    >PREGRADO</a>
+                    <!---SUB ELEMENTOS---CONTENIDO---INICIO-->
+                    <div class="dropdown-menu" aria-labelledby="btn-dropdown-pregrado">
+                        <a href="ExCepre.html" class="dropdown-item">Examen CEPREUNA</a>
+                        <a href="ExGeneral.html" class="dropdown-item">Examen GENERAL</a>
+                        
+                        <a href="ProAnteriores.html" class="dropdown-item">PROCESOS DE ADMISIÓN ANTERIORES</a>
+
+                    </div>
+                    <!---SUB ELEMENTOS---CONTENIDO---FIN-->
+                </li>
+                <!---SUB ELEMENTOS--FIN-->
+
+
+                <li class="nav-item">
+                    <a class="nav-link " href="http://posgradounap.pe/">POSGRADO</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link " href="CounterGeneral">SEGUNDA ESPECIALIDAD</a>
+                </li>
+            </ul>
+            </div>
+        </div>        
+    </nav>
+<!--B A R R A  D E  N A V E G A C I O N-->
+
+<!--INICIO DE HEADER-->
+    <header ><!--cabecera principal-->
+        
+        <section>
+            <div class="main-header-two">
+                    <div class="d-flex justify-content-center align-items-center flex-column py-5 text-white ">
+                        <!--agregamos una nueva clase 
+                                (justify-content-center align-self-center)-->
+                        <h1>CARRERAS UNA PUNO</h1>
+                        <h2>ÁREAS</h2>
+                        <!-------HACEMOS NUEVO NAVBAR PARA LAS AREAS-->
+                        <div class="py-3">
+                            <a class="btn btn-primary" href="#AREAINGENIERIAS" role="button">INGENIERIAS</a>
+                            <a class="btn btn-primary" href="#AREABIOMÉDICAS" role="button">BIOMEDICAS</a>
+                            <a class="btn btn-primary" href="#AREASOCIALES" role="button">SOCIALES</a>
+                        
+                        </div>
+                    </div>
+            </div>        
+            
+<!--INICIO DE INGENIERIAS-->
+            <section id="areaIngenieria">
+                <div> <!------------CINTA DE SEPARACION INGENIERIAS------------------>
+                    <nav nav class="navbar navbar-light" style="background-color: #e84118;">
+                        
+                            <div class="container-fluid" >
+                                <div class="container">
+                                    <span class="navbar-brand mb-0 h1 text-white">INGENIERIAS</span>
+                                </div>
+                
+                            
+                            </div>
+                            
+                    </nav>
+                </div>
+                <!------SECTION PARA LAS TARJETAS-------->
+                <div class="container mt-5 mb-5">
+                    <div class="row" id="AREAINGENIERIAS">
+                <!-----------------------------E L E C T R O N I C A------------------------------>
+                            <div class="col-12 col-sm-6 col-md-4 col-lg-3 mt-2">
+                                <div class="card" >
+                                    
+                                    <div title="ing.geologica" class="cover cover-small"  
+                                    style="background-image:
+                                     url(CARRERAS/INGENIERIAS/INGENIERÍA_ELECTRONICA/ELECTRONICA.png); 
+                                      " >
+                                    </div>
+                                    <div class="card-body">
+                                    <h5 class="card-title">INGENIERÍA ELECTRÓNICA</h5>
+                                    <a href="CARRERAS/INGENIERIAS/INGENIERÍA_ELECTRONICA/IngElectronica.html" 
+                                    class="btn btn-primary">CONOCE MAS</a>
+                                    </div>
+                                </div>
+                            </div>
+                <!---------------------------S I S T E M A S------------------------------------->    
+                            <div class="col-12 col-sm-6 col-md-4 col-lg-3 mt-2">
+                                <div class="card" >
+                                    
+                                    <div title="INGENIERÍA DE SISTEMAS" class="cover cover-small" style="background-image: 
+                                    url(CARRERAS/INGENIERIAS/INGENIERÍA_DE_SISTEMAS/sistemasP.JPG);">
+                                    </div>
+                                    <div class="card-body">
+                                    <h5 class="card-title">INGENIERÍA DE SISTEMAS</h5>
+                                    <a href="CARRERAS/INGENIERIAS/INGENIERÍA_DE_SISTEMAS/sistemas.html" class="btn btn-primary">CONOCE MAS</a>
+                                    </div>
+                                </div>
+                            </div>
+                <!---------------------------E S T A D I S T I C A-------------------------------->
+                            <div class="col-12 col-sm-6 col-md-4 col-lg-3 mt-2">
+                                <div class="card" >
+                                    
+                                    <div title="INGENIERÍA ESTADISTICA E INFORMÁTICA" class="cover cover-small" 
+                                    style="background-image: url(/CARRERAS/INGENIERIAS/INGENIERÍA_ESTADISTICA_E_INFORMÁTICA/ESTADISTICA\ INFORMATICA.png);">
+                                    </div>
+                                    <div class="card-body">
+                                    <h5 class="card-title">INGENIERÍA ESTADISTICA E INFORMÁTICA</h5>
+                                    <a href="/CARRERAS/INGENIERIAS/INGENIERÍA_ESTADISTICA_E_INFORMÁTICA/estadistica.html" class="btn btn-primary">CONOCE MAS</a>
+                                    </div>
+                                </div>
+                            </div>
+                
+                
+                <!---------------------------Q U I M I C A-------------------------------->
+                            <div class="col-12 col-sm-6 col-md-4 col-lg-3 mt-2">
+                                <div class="card" >
+                                    
+                                    <div title="INGENIERÍA QUIMICA" class="cover cover-small"
+                                     style="background-image: url(/CARRERAS/INGENIERIAS/INGENIERÍA_QUIMICA/quimicaP.JPG);">
+                                    </div>
+                                    <div class="card-body">
+                                    <h5 class="card-title">INGENIERÍA QUIMICA</h5>
+                                    <a href="/CARRERAS/INGENIERIAS/INGENIERÍA_QUIMICA/quimica.html" class="btn btn-primary">CONOCE MAS</a>
+                                    </div>
+                                </div>
+                            </div>
+                <!---------------------------A G R O N O M I C A-------------------------------->
+                            <div class="col-12 col-sm-6 col-md-4 col-lg-3 mt-2">
+                                <div class="card" >
+                                    
+                                    <div title="INGENIERÍA AGRONÓMICA" class="cover cover-small" 
+                                    style="background-image: url(/CARRERAS/INGENIERIAS/INGENIERÍA_AGRONOMICA/agronimicaP.JPG);">
+                                    </div>
+                                    <div class="card-body">
+                                    <h5 class="card-title">INGENIERÍA AGRONÓMICA</h5>
+                                    <a href="/CARRERAS/INGENIERIAS/INGENIERÍA_AGRONOMICA/agronomica.html" class="btn btn-primary">CONOCE MAS</a>
+                                    </div>
+                                </div>
+                            </div>
+                <!---------------------------AGROINDUSTRIAL-------------------------------->
+                            <div class="col-12 col-sm-6 col-md-4 col-lg-3 mt-2">
+                                <div class="card" >
+                                    
+                                    <div title="INGENIERÍA AGROINDUSTRIAL" class="cover cover-small" 
+                                    style="background-image: url(/CARRERAS/INGENIERIAS/INGENIERÍA_AGROINDUSTRIAL/agroFACUL.JPG);">
+                                    </div>
+                                    <div class="card-body">
+                                    <h5 class="card-title">INGENIERÍA AGROINDUSTRIAL</h5>
+                                    <a href="/CARRERAS/INGENIERIAS/INGENIERÍA_AGROINDUSTRIAL/agroindustrial.html" class="btn btn-primary">CONOCE MAS</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            
+                <!---------------------------AGRICOLA-------------------------------->
+                            <div class="col-12 col-sm-6 col-md-4 col-lg-3 mt-2">
+                                <div class="card" >
+                                    
+                                    <div title="INGENIERÍA AGRÍCOLA" class="cover cover-small" 
+                                    style="background-image: url(/CARRERAS/INGENIERIAS/INGENIERÍA_AGRICOLA/agricolaP.JPG);">
+                                    </div>
+                                    <div class="card-body">
+                                    <h5 class="card-title">INGENIERÍA AGRÍCOLA</h5>
+                                    <a href="/CARRERAS/INGENIERIAS/INGENIERÍA_AGRICOLA/agricola.html" class="btn btn-primary">CONOCE MAS</a>
+                                    </div>
+                                </div>
+                            </div>
+                <!---------------------------TOPOGRAFIA-------------------------------->
+                            <div class="col-12 col-sm-6 col-md-4 col-lg-3 mt-2">
+                                <div class="card" >
+                                    
+                                    <div title="INGENIERÍA TOPOGRÁFICA Y AGRIMENSURA" class="cover cover-small"
+                                     style="background-image: url(/CARRERAS/INGENIERIAS/INGENIERÍA_TOPOGRAFICA_Y_AGRIMENSURA/pabellonNuevo2.jpg);">
+                                    </div>
+                                    <div class="card-body">
+                                    <h5 class="card-title">INGENIERÍA TOPOGRÁFICA Y AGRIMENSURA</h5>
+                                    <a href="/CARRERAS/INGENIERIAS/INGENIERÍA_TOPOGRAFICA_Y_AGRIMENSURA/topografia.html" class="btn btn-primary">CONOCE MAS</a>
+                                    </div>
+                                </div>
+                            </div>
+                <!---------------------------ECONOMICA-------------------------------->
+                            <div class="col-12 col-sm-6 col-md-4 col-lg-3 mt-2">
+                                <div class="card" >
+                                    
+                                    <div title="INGENIERÍA ECONÓMICA" class="cover cover-small" 
+                                    style="background-image: url(/CARRERAS/INGENIERIAS/INGENIERÍA_ECONOMICA/ECONOMICA.png);">
+                                    </div>
+                                    <div class="card-body">
+                                    <h5 class="card-title">INGENIERÍA ECONÓMICA</h5>
+                                    <a href="/CARRERAS/INGENIERIAS/INGENIERÍA_ECONOMICA/economica.html" class="btn btn-primary">CONOCE MAS</a>
+                                    </div>
+                                </div>
+                            </div>
+                <!---------------------------G E O L O G I C A-------------------------------->
+                            <div class="col-12 col-sm-6 col-md-4 col-lg-3 mt-2">
+                                <div class="card" >
+                                    
+                                    <div title="INGENIERÍA GEOLÓGICA" class="cover cover-small" 
+                                    style="background-image: url(/CARRERAS/INGENIERIAS/INGENIERÍA_GEOLOGICA/geologicaA.JPG);">
+                                    </div>
+                                    <div class="card-body">
+                                    <h5 class="card-title">INGENIERÍA GEOLÓGICA</h5>
+                                    <a href="/CARRERAS/INGENIERIAS/INGENIERÍA_GEOLOGICA/geologica.html" class="btn btn-primary">CONOCE MAS</a>
+                                    </div>
+                                </div>
+                            </div>
+                <!---------------------------METALURGICA------------------------------->
+                            <div class="col-12 col-sm-6 col-md-4 col-lg-3 mt-2">
+                                <div class="card" >
+                                    
+                                    <div title="ing.geologica" class="cover cover-small" 
+                                    style="background-image: url(/CARRERAS/INGENIERIAS/INGENIERÍA_METALURGICA/METALURGICA.png);">
+                                    </div>
+                                    <div class="card-body">
+                                    <h5 class="card-title">INGENIERÍA METALÚRGICA</h5>
+                                    <a href="/CARRERAS/INGENIERIAS/INGENIERÍA_METALURGICA/metalurgica.html" class="btn btn-primary">CONOCE MAS</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                <!--------------------------MINAS------------------------------->
+                            <div class="col-12 col-sm-6 col-md-4 col-lg-3 mt-2">
+                                <div class="card" >
+                                    
+                                    <div title="INGENIERÍA DE MINAS" class="cover cover-small" 
+                                    style="background-image: url(/CARRERAS/INGENIERIAS/INGENIERÍA_DE_MINAS/pabellonMinas.png);">
+                                    </div>
+                                    <div class="card-body">
+                                    <h5 class="card-title">INGENIERÍA DE MINAS</h5>
+                                    <a href="/CARRERAS/INGENIERIAS/INGENIERÍA_DE_MINAS/minas.html" class="btn btn-primary">CONOCE MAS</a>
+                                    </div>
+                                </div>
+                            </div>                       
+                <!---------------------------CIVIL------------------------------->
+                            <div class="col-12 col-sm-6 col-md-4 col-lg-3 mt-2">
+                                <div class="card" >
+                                    
+                                    <div title="INGENIERÍA CIVIL" class="cover cover-small" 
+                                    style="background-image: url(/CARRERAS/INGENIERIAS/INGENIERÍA_CIVIL/civilP.JPG);">
+                                    </div>
+                                    <div class="card-body">
+                                    <h5 class="card-title">INGENIERÍA CIVIL</h5>
+                                    <a href="/CARRERAS/INGENIERIAS/INGENIERÍA_CIVIL/civil.html" class="btn btn-primary">CONOCE MAS</a>
+                                    </div>
+                                </div>
+                            </div>
+                <!---------------------------FISICO------------------------------>
+                            <div class="col-12 col-sm-6 col-md-4 col-lg-3 mt-2"> 
+                                <div class="card" >
+                                    
+                                    <div title="ing.electronica" class="cover cover-small-fisico-matematica"
+                                     style="background-image: url(/CARRERAS/INGENIERIAS/CIENCIAS_FISICO_MATEMATICAS_FISICA/CIENCIAS\ FISICAS.png);">
+                                    </div>
+                                    <div class="card-body">
+                                    <h5 class="card-title">CIENCIAS FISICO MATEMATICAS</h5>
+                                    <ul class="list-group list-group-flush ">
+                                        
+                                        <a href="/CARRERAS/INGENIERIAS/CIENCIAS_FISICO_MATEMATICAS_MATEMATICAS/cienciasFisico_Matematicas.html" class="btn btn-primary m-1">Matematicas</a>
+                                        
+                                        <a href="/CARRERAS/INGENIERIAS/CIENCIAS_FISICO_MATEMATICAS_FISICA/cienciasFisico_Fisica.html" class="btn btn-primary m-1">Física</a>
+                                    </ul>
+                                    </div>
+                                </div>
+                            </div>               
+                <!---------------------------ARQUITECTURA------------------------------->
+                            <div class="col-12 col-sm-6 col-md-4 col-lg-3 mt-2">
+                                <div class="card" >
+                                    
+                                    <div title="ARQUITECTURA Y URBANISMO" class="cover cover-small"
+                                     style="background-image: url(/CARRERAS/INGENIERIAS/ARQUITECTURA_Y_URBANISMO/ARQUITECTURA.png);">
+                                    </div>
+                                    <div class="card-body">
+                                    <h5 class="card-title">ARQUITECTURA Y URBANISMO</h5>
+                                    <a href="/CARRERAS/INGENIERIAS/ARQUITECTURA_Y_URBANISMO/arquitectura.html" class="btn btn-primary">CONOCE MAS</a>
+                                    </div>
+                                </div>
+                            </div> 
+                 <!---------------------------MECANICA------------------------------->
+                            <div class="col-12 col-sm-6 col-md-4 col-lg-3 mt-2">
+                                <div class="card" >
+                                    
+                                    <div title="INGENIERÍA MECANICA ELECTRICA" class="cover cover-small" 
+                                    style="background-image: url(/CARRERAS/INGENIERIAS/INGENIERÍA_MECANICA_ELECTRICA/MECANICA_ELECTRICA.png);">
+                                    </div>
+                                    <div class="card-body">
+                                    <h5 class="card-title">INGENIERÍA MECANICA ELECTRICA</h5>
+                                    <a href="/CARRERAS/INGENIERIAS/INGENIERÍA_MECANICA_ELECTRICA/mecanica.html" class="btn btn-primary">CONOCE MAS</a>
+                                    </div>
+                                </div>
+                            </div>             
+                
+                        
+
+                    </div> 
+
+                    </div>
+                </div>
+            </section>
+<!--INICIO DE BIOMEDICAS-->
+            <section id="areaBiomedicas">
+                <div> <!------------CINTA DE SEPARACION INGENIERIAS------------------>
+                    <nav nav class="navbar navbar-light" style="background-color:#006266;">
+                        
+                            <div class="container-fluid" >
+                                <div class="container">
+                                    <span class="navbar-brand mb-0 h1 text-white" >BIOMÉDICAS</span>
+                                </div>
+                            
+                            </div>
+                            
+                    </nav>
+                </div>
+                <!------SECTION PARA LAS TARJETAS-------->
+                <div class="container mt-5 mb-5" >
+                    <div class="row" id="AREABIOMÉDICAS">
+               <!---------------------------B I O L O G I A------------------------------------>  
+                            <div class="col-12 col-sm-6 col-md-4 col-lg-3 mt-2">
+                                <div class="card" >
+                                    
+                                    <div title="BIOLOGIA" class="cover cover-small-edu-biologia" 
+                                    style="background-image: url(/CARRERAS/BIOMEDICAS/BIOLOGIA_ECOLOGIA/biologicaPG.jpg);">
+                                    </div>
+                                    <div class="card-body">
+                                    <h5 class="card-title">BIOLOGIA</h5>
+                                        <ul class="list-group list-group-flush ">
+                                                    
+                                            <a href="/CARRERAS/BIOMEDICAS/BIOLOGIA_PESQUERIA/pesqueria.html" 
+                                            class="btn btn-primary m-1">Pesqueria</a>
+                                            
+                                            <a href="/CARRERAS/BIOMEDICAS/BIOLOGIA_MICROBIOLOGIA_LABORATORIO CLINICO/microbiologia.html" 
+                                            class="btn btn-primary m-1">Microbiologia y Laboratorio Clinico</a>
+                                            <a href="/CARRERAS/BIOMEDICAS/BIOLOGIA_ECOLOGIA/ecologia.html" 
+                                            class="btn btn-primary m-1">Ecologia</a>
+
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>   
+                <!--------------------------ENFERMERIA------------------------------------->    
+                            <div class="col-12 col-sm-6 col-md-4 col-lg-3 mt-2">
+                                <div class="card" >
+                                    <!---------alineamos las imagenes---->
+                                    <div title="ing.sistemas" class="cover cover-small" 
+                                    style="background-image: url(/CARRERAS/BIOMEDICAS/ENFERMERIA/enfermeriaPG.jpg);">
+                                    </div>
+
+                                    <div class="card-body">
+                                    <h5 class="card-title">ENFERMERIA</h5>
+                                    <a href="/CARRERAS/BIOMEDICAS/ENFERMERIA/Enfermeria.html" class="btn btn-primary">CONOCE MAS</a>
+                                    </div>
+                                </div>
+                            </div>    
+                <!--------------------------MEDICINA_HUMANA------------------------------->
+                            <div class="col-12 col-sm-6 col-md-4 col-lg-3 mt-2">
+                                <div class="card" >
+                                    
+                                    <div title="ing.estadistica" class="cover cover-small" 
+                                    style="background-image: url(/CARRERAS/BIOMEDICAS/MEDICINA_HUMANA/MEDICINA\ HUMANA.png);">
+                                    </div>
+                                    <div class="card-body">
+                                    <h5 class="card-title">MEDICINA HUMANA</h5>
+                                    <a href="/CARRERAS/BIOMEDICAS/MEDICINA_HUMANA/medicinaHumana.html" class="btn btn-primary">CONOCE MAS</a>
+                                    </div>
+                                </div>
+                            </div>    
+                <!-------------------------NUTRICIÓN_HUMANA-------------------------------->
+                            <div class="col-12 col-sm-6 col-md-4 col-lg-3 mt-2">
+                                <div class="card" >
+                                    
+                                    <div title="NUTRICIÓN HUMANA" class="cover cover-small" 
+                                    style="background-image: url(/CARRERAS/BIOMEDICAS/NUTRICIÓN_HUMANA/NUTRICION\ HUMANA.png);">
+                                    </div>
+                                    <div class="card-body">
+                                    <h5 class="card-title">NUTRICIÓN HUMANA</h5>
+                                    <a href="/CARRERAS/BIOMEDICAS/NUTRICIÓN_HUMANA/nutriciónHumana.html" class="btn btn-primary">CONOCE MAS</a>
+                                    </div>
+                                </div>
+                            </div>
+                <!---------------------------ODONTOLOGIA------------------------------->
+                            <div class="col-12 col-sm-6 col-md-4 col-lg-3 mt-2">
+                                <div class="card" >
+                                    
+                                    <div title="ODONTOLOGIA" class="cover cover-small" 
+                                    style="background-image: url(/CARRERAS/BIOMEDICAS/ODONTOLOGIA/ODONTOLOGIA.png);">
+                                    </div>
+                                    <div class="card-body">
+                                    <h5 class="card-title">ODONTOLOGIA</h5>
+                                    <a href="/CARRERAS/BIOMEDICAS/ODONTOLOGIA/odontologia.html" class="btn btn-primary">CONOCE MAS</a>
+                                    </div>
+                                </div>
+                            </div>
+                <!--------------------------VETERINARIA_ZOOTECNIA------------------------------->
+                            <div class="col-12 col-sm-6 col-md-4 col-lg-3 mt-2">
+                                <div class="card" >
+                                    
+                                    <div title="MEDICINA VETERINARIA y ZOOTECNIA" class="cover cover-small" 
+                                    style="background-image: url(/CARRERAS/BIOMEDICAS/VETERINARIA_ZOOTECNIA/veterinariaPG.jpg);">
+                                    </div>
+                                    <div class="card-body">
+                                    <h5 class="card-title">MEDICINA VETERINARIA y ZOOTECNIA</h5>
+                                    <a href="/CARRERAS/BIOMEDICAS/VETERINARIA_ZOOTECNIA/veterinariaZootecnia.html" class="btn btn-primary">CONOCE MAS</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                    </div> 
+
+                    </div>
+                </div>
+            </section>
+<!--INICIO DE SOCIALES-->
+            <section id="areaSociales">
+                <div> <!------------CINTA DE SEPARACION INGENIERIAS------------------>
+                    <nav nav class="navbar navbar-light" style="background-color: #AA0EF2;">
+                        
+                            <div class="container-fluid" >
+                                <div class="container">
+                                    <span class="navbar-brand mb-0 h1 text-white">SOCIALES</span>
+                                </div>
+                            
+                            </div>
+                            
+                    </nav>
+                </div>
+                <!------SECTION PARA LAS TARJETAS-------->
+                <div class="container mt-5 mb-5">
+                    <div class="row" id="AREASOCIALES">
+                <!----------------------------------A R T E------------------------------------>  
+                            <div class="col-12 col-sm-6 col-md-4 col-lg-3 mt-2">
+                                <div class="card" >
+                                    
+                                    <div title="ing.estadistica" class="cover cover-small-edu-arte" 
+                                    style="background-image: url(/CARRERAS/SOCIALES/ARTE_ARTES_PLASTICAS/ARTE.png);">
+                                    </div>
+                                    <div class="card-body">
+                                    <h5 class="card-title">ARTE</h5>
+                                        <ul class="list-group list-group-flush ">
+                                                
+                                            <a href="/CARRERAS/SOCIALES/ARTE_ARTES_PLASTICAS/artePlastica.html" 
+                                            class="btn btn-primary m-1">Artes Plastica</a>
+                                            
+                                            <a href="/CARRERAS/SOCIALES/ARTE_DANZA/arteDanza.html" 
+                                            class="btn btn-primary m-1">Danza</a>
+                                            <a href="/CARRERAS/SOCIALES/ARTE_MUSICA/arteMusica.html" 
+                                            class="btn btn-primary m-1">Musica</a>
+
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>      
+                <!---------------------------ADMINISTRACION------------------------------------->    
+                            <div class="col-12 col-sm-6 col-md-4 col-lg-3 mt-2">
+                                <div class="card" >
+                                    <!---------alineamos las imagenes---->
+                                    <div title="ing.sistemas" class="cover cover-small" 
+                                    style="background-image: url(/CARRERAS/SOCIALES/ADMINISTRACION/administracionPGJPG.jpg);">
+                                    </div>
+
+                                    <div class="card-body">
+                                    <h5 class="card-title">ADMINISTRACIÓN</h5>
+                                    <a href="/CARRERAS/SOCIALES/ADMINISTRACION/administracion.html" class="btn btn-primary">CONOCE MAS</a>
+                                    </div>
+                                </div>
+                            </div>    
+                <!---------------------------ANTROPOLOGIA-------------------------------->
+                            <div class="col-12 col-sm-6 col-md-4 col-lg-3 mt-2">
+                                <div class="card" >
+                                    
+                                    <div title="ANTROPOLOGIA" class="cover cover-small" 
+                                    style="background-image: url(/CARRERAS/SOCIALES/ANTROPOLOGIA/ANTROPOLOGIA.png);">
+                                    </div>
+                                    <div class="card-body">
+                                    <h5 class="card-title">ANTROPOLOGIA</h5>
+                                    <a href="/CARRERAS/SOCIALES/ANTROPOLOGIA/antropologia.html" class="btn btn-primary">CONOCE MAS</a>
+                                    </div>
+                                </div>
+                            </div>    
+                <!------------------------CIENCIAS_CONTABLES-------------------------------->
+                            <div class="col-12 col-sm-6 col-md-4 col-lg-3 mt-2">
+                                <div class="card" >
+                                    
+                                    <div title="CIENCIAS CONTABLES" class="cover cover-small"
+                                     style="background-image: url(/CARRERAS/SOCIALES/CIENCIAS_CONTABLES/CONTABLES.png);">
+                                    </div>
+                                    <div class="card-body">
+                                    <h5 class="card-title">CIENCIAS CONTABLES</h5>
+                                    <a href="/CARRERAS/SOCIALES/CIENCIAS_CONTABLES/contables.html" class="btn btn-primary">CONOCE MAS</a>
+                                    </div>
+                                </div>
+                            </div>
+                <!------------------------------EDUCACION  SECUNDARIA------------------------------------->  
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3 mt-2">
+                    <div class="card" >
+                        <!---------alineamos las imagenes---->
+                        <div title="ing.electronica" class="cover cover-small-edu-secundaria" style="background-image: url();">
+                        </div>
+
+                        <div class="card-body">
+                        <h5 class="card-title">EDUCACIÓN SECUNDARIA</h5>
+                            <ul class="list-group list-group-flush ">
+                                
+                                <a href="/CARRERAS/SOCIALES/PROGRASECUNDARIA_MATEMATICA,FISICA,COMPUTACION_INFORMATICA/secundariaMatematicaFisica.html" 
+                                class="btn btn-primary m-1">Matematica,Fisica, Computación e Informatica</a>
+                                
+                                <a href="/CARRERAS/SOCIALES/SECUNDARIA_LENGUA,_LITERATURA,_PSICOLOGIA_Y_FILOSOFIA/secundariaLengua.html" 
+                                class="btn btn-primary m-1">Lengua, Literatura, Psicologia y Filosofia</a>
+                                <a href="/CARRERAS/SOCIALES/SECUNDARIA_CIENCIA_TECNOLOGIA_Y_AMBIENTE/educacionCTA.html" 
+                                class="btn btn-primary m-1">Ciencia Tecnologia y Ambiente</a>
+                                <a href="/CARRERAS/SOCIALES/SECUNDARIA_CIENCIAS_SOCIALES/secundariaSociales.html" 
+                                class="btn btn-primary m-1">Ciencias Sociales</a>
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>  
+                <!---------------------------COMUNICACIÓN_SOCIAL-------------------------------->
+                            <div class="col-12 col-sm-6 col-md-4 col-lg-3 mt-2">
+                                <div class="card" >
+                                    
+                                    <div title="CIENCIAS DE LA COMUNICACIÓN SOCIAL" 
+                                    class="cover cover-small" style="background-image: url(/CARRERAS/SOCIALES/COMUNICACIÓN_SOCIAL/pabellonComu.png);">
+                                    </div>
+                                    <div class="card-body">
+                                    <h5 class="card-title">CIENCIAS DE LA COMUNICACIÓN SOCIAL</h5>
+                                    <a href="/CARRERAS/SOCIALES/COMUNICACIÓN_SOCIAL/comunicacionSocial.html" class="btn btn-primary">CONOCE MAS</a>
+                                    </div>
+                                </div>
+                            </div>
+                <!---------------------------DERECHO------------------------------->
+                            <div class="col-12 col-sm-6 col-md-4 col-lg-3 mt-2">
+                                <div class="card" >
+                                    
+                                    <div title="DERECHO" class="cover cover-small" 
+                                    style="background-image: url(/CARRERAS/SOCIALES/DERECHO/DERECHO.png);">
+                                    </div>
+                                    <div class="card-body">
+                                    <h5 class="card-title">DERECHO</h5>
+                                    <a href="/CARRERAS/SOCIALES/DERECHO/derecho.html" class="btn btn-primary">CONOCE MAS</a>
+                                    </div>
+                                </div>
+                            </div>
+                <!--------------------------EDUCACION_FISICA------------------------------->
+                            <div class="col-12 col-sm-6 col-md-4 col-lg-3 mt-2">
+                                <div class="card" >
+                                    
+                                    <div title="EDUCACIÓN FISICA" class="cover cover-small" 
+                                    style="background-image: url(/CARRERAS/SOCIALES/EDUCACION_FISICA/EDUCACION_FISICA.png);">
+                                    </div>
+                                    <div class="card-body">
+                                    <h5 class="card-title">EDUCACIÓN FISICA</h5>
+                                    <a href="/CARRERAS/SOCIALES/EDUCACION_FISICA/eduFisica.html" class="btn btn-primary">CONOCE MAS</a>
+                                    </div>
+                                </div>
+                            </div>
+                <!---------------------------EDUCACION_INICIAL------------------------------->
+                            <div class="col-12 col-sm-6 col-md-4 col-lg-3 mt-2">
+                                <div class="card" >
+                                    
+                                    <div title="EDUCACION INICIAL" class="cover cover-small" 
+                                    style="background-image: url(/CARRERAS/SOCIALES/EDUCACION_INICIAL/EDUCACION_INICIAL.png);">
+                                    </div>
+                                    <div class="card-body">
+                                    <h5 class="card-title">EDUCACION INICIAL</h5>
+                                    <a href="/CARRERAS/SOCIALES/EDUCACION_INICIAL/inicial.html" class="btn btn-primary">CONOCE MAS</a>
+                                    </div>
+                                </div>
+                            </div>
+                <!--------------------------EDUCACION_PRIMARIA------------------------------->
+                            <div class="col-12 col-sm-6 col-md-4 col-lg-3 mt-2">
+                                <div class="card" >
+                                    
+                                    <div title="EDUCACION PRIMARIA" class="cover cover-small" 
+                                    style="background-image: url(/CARRERAS/SOCIALES/EDUCACION_PRIMARIA/EDUCACION_PRIMARIA.png);">
+                                    </div>
+                                    <div class="card-body">
+                                    <h5 class="card-title">EDUCACIÓN PRIMARIA</h5>
+                                    <a href="/CARRERAS/SOCIALES/EDUCACION_PRIMARIA/primaria.html" class="btn btn-primary">CONOCE MAS</a>
+                                    </div>
+                                </div>
+                            </div>
+                <!---------------------------SOCIOLOGIA-------------------------------->
+                            <div class="col-12 col-sm-6 col-md-4 col-lg-3 mt-2">
+                                <div class="card" >
+                                    
+                                    <div title="SOCIOLOGIA" class="cover cover-small" 
+                                    style="background-image: url(/CARRERAS/SOCIALES/SOCIOLOGIA/SOCIOLOGIA.png);">
+                                    </div>
+                                    <div class="card-body">
+                                    <h5 class="card-title">SOCIOLOGIA</h5>
+                                    <a href="/CARRERAS/SOCIALES/SOCIOLOGIA/Sociologia.html" class="btn btn-primary">CONOCE MAS</a>
+                                    </div>
+                                </div>
+                            </div>
+                <!--------------------------TRABAJO_SOCIAL------------------------------->
+                            <div class="col-12 col-sm-6 col-md-4 col-lg-3 mt-2">
+                                <div class="card" >
+                                    
+                                    <div title="TRABAJO SOCIAL" class="cover cover-small" 
+                                    style="background-image: url(/CARRERAS/SOCIALES/TRABAJO_SOCIAL/TRABAJO\ SOCIAL.png);">
+                                    </div>
+                                    <div class="card-body">
+                                    <h5 class="card-title">TRABAJO SOCIAL</h5>
+                                    <a href="/CARRERAS/SOCIALES/TRABAJO_SOCIAL/trabajoSocial.html" class="btn btn-primary">CONOCE MAS</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                <!--------------------------TURISMO------------------------------->
+                            <div class="col-12 col-sm-6 col-md-4 col-lg-3 mt-2">
+                                <div class="card" >
+                                    
+                                    <div title="TURISMO" class="cover cover-small" 
+                                    style="background-image: url(/CARRERAS/SOCIALES/TURISMO/TURISMO.png);">
+                                    </div>
+                                    <div class="card-body">
+                                    <h5 class="card-title">TURISMO</h5>
+                                    <a href="/CARRERAS/SOCIALES/TURISMO/turismo.html" class="btn btn-primary">CONOCE MAS</a>
+                                    </div>
+                                </div>
+                            </div>                       
+                    </div> 
+
+                    </div>
+                </div>
+            </section>
+
+        </section>
+    </header>    
+
+
+<!-------------S E C S I O N  P I E   D E   P A G I N A------------->
+     <footer class="footer-all text-white" id="font-footer">
+        <!---------------------------------------------GRUPO 1-->
+        <div class="group-one">
+            <div class="box">
+                <h5><b>Contáctanos</b></h5>
+                
+                    <div class="d-flex flex-row">
+                        <div class="p-2"><i class="bi bi-building"></i></div>
+                        <div class="p-2"><h6 class="font-weight-bold titles-colors-direccion mb-3"
+                            >Dirección: Av. Floral N° 1153 - UNA PUNO. <br>
+                            Tercer Piso, Vicerectorado de Investigación  </h6></div>
+                    </div>
+
+
+                    <div class="d-flex flex-row">
+                        <div class="p-2"><i class="bi bi-envelope-fill"></i></div>
+                        <div class="p-2"><h6 class="font-weight-bold titles-colors-direccion mb-3"
+                            >Escribenos: <br> admision@unap.edu.pe</h6></div>
+                    </div>
+
+            </div>
+
+            
+        
+
+        <!---------------------------------------------GRUPO 2-->    
+            <div class="box">
+                <h5><b>Redes Sociales</b></h5>
+                    <div class="social-networks">
+                        <a href="https://www.facebook.com/dadunapuno" class="bi bi-facebook"></a>
+                        <a href="https://www.instagram.com/unapuno_oficial/" class="bi bi-instagram "></a>
+                        <a href="https://www.youtube.com/channel/UCEta0e663FgxvYgCABhGl6w" class="bi bi-youtube"></a>
+                        <a href="https://www.linkedin.com/school/universidad-nacional-del-altiplano/" class="bi bi-linkedin "></a>
+                        <a href="https://www.tiktok.com/@una_puno_oficial" class="bi bi-tiktok"></a>
+                    </div> 
+                    
+            </div>
+        <!---------------------------------------------GRUPO 3-->    
+            <div class="box">
+                <h5><b>Ubicación</b></h5>
+                    <div class="d-flex flex-row">
+                        <div class="p-2"><i class="bi bi-geo-alt-fill"></i></div>
+                        <div class="p-2"><h6 class="font-weight-bold titles-colors-direccion mb-3"
+                            >Google Maps</h6></div>
+                    </div>
+                <div class="responsive-iframe">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1193.6387507796326!2d-70.0173111269694!3d-15.824831952946639!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x915d69d15f665f99%3A0x4acadf74d11d2f62!2sDIRECCI%C3%93N%20DE%20ADMISI%C3%93N!5e1!3m2!1ses-419!2spe!4v1656198885016!5m2!1ses-419!2spe" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>    
+
+            </div>
+        </div>
+        <!---------------------------------------------GRUPO 2-->
+        <div class="group-two">
+            <small>&copy;2022 <b>Dirección de Admision</b> All Rights Reserved.</small>
+        </div>
+
+
+        
+    </footer>
+    <!--Agregamos Javascrip de Bootstrap-->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+<!------- FIN DE H E A D E R ------>
+<!----INICIO----AGREGAMOS UNA NUEVA SECCION PARA TARJETAS  
+      se tiene que corregir el tamaño de las tarjetas a un solo tamaño---->
+
+
+
+</body>
+</html>

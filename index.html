@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="IMAGENES/logodad.png">
+    <title>AdmisiónUNA2022</title>
+    <!--AGREGAR BOOTSTRAP-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" 
+    rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    
+
+    
+    <!--AGREGAR BOOTSTRAP 5.2-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"/>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+    <!----------SE ENLAZA BOOTSTRAP CON maincss.css------------>
+    <link rel="stylesheet" href="index.css">
+
+    
+    <!-----------------AGREGAMOS FONT AWASOME---------------->
+    <script src="https://kit.fontawesome.com/89d9e04610.js" crossorigin="anonymous"></script>
+    <!-----------------AGREGAMOS ICONOS DE BOOTSTRAP---------------->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+
+</head>
+<body>
+<!---------NAV BAR---------INICIO-->
+<!--bootstarp navbar-->
+    <nav class="navbar navbar-expand-lg navbar-dark sticky-top"> 
+        <!--COMIENZO PARA CAMBIAR COLOR DE LA BARRA (navbar-light bg-light)
+        (cambiamos navbar-dark bg-dark por )=(nav class="navbar navbar-light" style="background-color: #006cb1;")-->
+        <div class="container"><!---agregamos contenedor (.container)-->
+            <!---ajustes para poner logo y tamaño de imagen-->
+            <a class="navbar-brand" href="/"><!--cambiamos # por un / para que nos lleve a la pagina inicial-->
+            <img src="IMAGENES/logouna.png" alt="logoUNA" style="width: 120%;" ></a>
+            
+            <button 
+                    
+                    class="navbar-toggler" 
+                    data-toggle="collapse" 
+                    data-target="#navbarNav" 
+                    aria-controls="navbarNav" 
+                    aria-expanded="false"> 
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto"> <!--le agregamos (lm-auto) para que la navegacion este a la izquierda-->
+                <li class="nav-item"><!--ELIMINAMOS active-->
+                     <a class="nav-link " href="index.html">INICIO</a> <!--eliminamos <span class="sr-only">(current)</span>-->
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link " href="carrerashtml.html">CARRERAS</a>
+                </li>
+
+                <!---SUB ELEMENTOS--INICIO-->
+                <li class="nav-item dropdown">
+                    <a 
+                    class="nav-link dropdown-toggle fw-bold" 
+                    id="btn-dropdown-pregrado" 
+                    data-toggle="dropdown" 
+                    aria-haspopup="true" 
+                    aria-expanded="false" 
+                    href="#"
+                    >PREGRADO</a>
+                    <!---SUB ELEMENTOS---CONTENIDO---INICIO-->
+                    <div class="dropdown-menu" aria-labelledby="btn-dropdown-pregrado">
+                        <a href="ExCepre.html" class="dropdown-item">Examen CEPREUNA</a>
+                        <a href="ExGeneral.html" class="dropdown-item">Examen GENERAL</a>
+                        
+                        <a href="ProAnteriores.html" class="dropdown-item">PROCESOS DE ADMISIÓN ANTERIORES</a>
+
+                    </div>
+                    <!---SUB ELEMENTOS---CONTENIDO---FIN-->
+                </li>
+                <!---SUB ELEMENTOS--FIN-->
+
+
+                <li class="nav-item">
+                    <a class="nav-link " href="http://posgradounap.pe/">POSGRADO</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link " href="https://portal.unap.edu.pe/">SEGUNDA ESPECIALIDAD</a>
+                </li>
+            </ul>
+            </div>
+        </div>        
+    </nav>
+<!--B A R R A    D E    N A V E G A C I O N-----FIN---->
+   
+
+<!---------------------------------------------CAROUSEL DE IMAGENES------------------------------------------>
+    <header class="main-header">
+        
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active"  data-bs-interval="2000">
+                <img src="IMAGENES/1UNA/ImgPortada/1.png" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block ">
+                    
+                </div>
+              </div>
+              <div class="carousel-item"  data-bs-interval="2000">
+                <img src="IMAGENES/1UNA/ImgPortada/2.png" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    
+                </div>
+              </div>
+              <div class="carousel-item"  data-bs-interval="2000">
+                <img src="IMAGENES/1UNA/ImgPortada/3.png" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    
+                </div>
+              </div>
+              <div class="carousel-item"  data-bs-interval="2000">
+                <img src="IMAGENES/1UNA/ImgPortada/4_0.png" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+    </header>
+
+    <!------- FIN DE H E A D E R -------->
+
+
+<!--------------------------------SECCION EXAMEN CEPRE UNA--------------------------------------->
+
+<div>
+    <div class="row py-2" id="CounterCepre">
+        <div class="container">
+            <div class="row">
+                <div class="container col-12 col-sm-12 col-md-5 " >
+                    <h1 class="text-light p-2 text-center">EXAMEN CEPREUNA 2022</h1>
+                    <h3 class="text-light p-2 text-center">06 y 07 de agosto</h3>
+                    
+                        <div class="row">
+                            <div class="text-center" id="botonescepre">
+                                <div class="py-1">
+                                    <a href="#" class="col-12 col-sm-4 col-md-4 btn btn-warning text-black">Inscripción</a>
+                                </div>
+                                <div class="py-1">
+                                    <a href="https://drive.google.com/file/d/16nat9-Xo26bDSURTihzUQMg7QIlrQGhM/view?usp=sharing" class="col-12 col-sm-4  col-md-4 btn btn-warning text-black ">Reglamento</a>
+                                </div>
+                                <div class="py-1"> 
+                                    <a href="ExCepre.html" class="col-12 col-sm-4  col-md-4 btn btn-warning text-black ">Examen Vocacional</a>
+                                </div>    
+                            </div>
+                        </div>
+                            
+                    <div class="container py-4 text-light">
+                        <h6>Zombie ipsum reversus ab viral inferno, nam rick grimes malum cerebro. 
+                            De carne lumbering animata corpora quaeritis. Summus brains sit​​, morbo 
+                            vel maleficia? De apocalypsi gorger omero undead survivor dictum mauris. 
+                            Hi mindless mortuis soulless creaturas, imo evil stalking monstra adventus 
+                            resi dentevil vultus comedat cerebella viventium. Qui animated corpse.</h6>
+                    </div>
+            </div>
+<!--------------------------------------------------------------------------------------------------------------------------------------->                    
+
+                <div class="container col-12 col-sm-12 col-md-7 ">
+                    <div class="py-4 text-light">
+                                    <div class="container">
+                                        <div class="accordion" id="accordionExample">
+                                            <div class="accordion-item">
+                                            <h2 class="accordion-header" id="headingOne">
+                                                <button class="accordion-button collapsed text-bg-danger" type="button" data-bs-toggle="collapse" 
+                                                data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                                <strong>CRONOGRAMA DE ACTIVIDADES</strong>
+                                                </button>
+                                            </h2>
+                                            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                                            data-bs-parent="#accordionExample">
+                                                <div class="accordion-body">
+                                                    <img src="IMAGENES/1UNA/CONTADOR/infoPortadaCEPREUNA/CEPRE_CRONOGRAMA.png" 
+                                                    class="img img-1" alt="" width="100%">
+                                                    
+                                                </div>
+                                            </div>
+                                            </div>
+                                            <div class="accordion-item ">
+                                            <h2 class="accordion-header " id="headingTwo">
+                                                <button class="accordion-button collapsed text-bg-primary" type="button" 
+                                                data-bs-toggle="collapse" 
+                                                data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                                <strong>TASAS EDUCATIVAS POR DERECHO DE ADMISIÓN</strong>
+                                                </button>
+                                            </h2>
+                                            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" 
+                                            data-bs-parent="#accordionExample">
+                                                <div class="accordion-body">
+                                                    <img src="IMAGENES/1UNA/CONTADOR/infoPortadaCEPREUNA/CEPRE_PAGOS.png" 
+                                                    class="img img-2" alt="" width="100%">
+                                                </div>
+                                            </div>
+                                            </div>
+
+                                            <div class="accordion-item">
+                                            <h2 class="accordion-header" id="headingThree">
+                                                <button class="accordion-button collapsed text-bg-warning " type="button" 
+                                                data-bs-toggle="collapse" 
+                                                data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                                <strong>CARRERAS PROFESIONALES CON EXAMEN VOCACIONAL</strong>
+                                                </button>
+                                            </h2>
+                                            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" 
+                                            data-bs-parent="#accordionExample">
+                                                <div class="accordion-body">
+                                                    <img src="IMAGENES/1UNA/CONTADOR/infoPortadaCEPREUNA/CEPRE_VOCACIONAL.png"
+                                                    class="img img-3" alt="" width="100%">
+                                                </div>
+                                            </div>
+                                            
+                                            </div>
+                                            <div class="accordion-item">
+                                                <h2 class="accordion-header" id="headingFour">
+                                                    <button class="accordion-button collapsed text-bg-info " type="button" 
+                                                    data-bs-toggle="collapse" 
+                                                    data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                                    <strong>
+                                                        NÚMERO DE VACANTES PARA EL EXAMEN DE ADMISIÓN CEPREUNA 
+                                                    </strong>
+                                                    </button>
+                                                </h2>
+                                                <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" 
+                                                data-bs-parent="#accordionExample">
+                                                    <div class="accordion-body">
+                                                        <img src="IMAGENES/1UNA/CONTADOR/infoPortadaCEPREUNA/CEPRE_VACANTES.jpg"
+                                                        class="img img-4" alt="" width="100%">
+                                                    </div>
+                                                </div>
+                                                
+                                                </div>
+                                        </div>
+                                    </div>
+    </div>
+                        
+<!--------------------------------------------------------------------------------------------------------------------------------------->
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!--------------------------------------------------------------------------------------------------------------------------------------->
+            
+<!------------------------------------SECCION EXAMEN GENERAL-------------------------------------->
+
+    <div class="row p-2" id="CounterGeneral">
+        <div class="container">
+            <div class="row">
+
+
+                    <div class="container col-12 col-sm-12 col-md-5" >
+                        <h1 class="text-light p-2 text-center">EXAMEN GENERAL UNA 2022</h1>
+                        <h3 class="text-light p-2 text-center">13 y 14 de agosto</h3>
+                                <div class="row">
+                                    <div class="text-center" id="botonescepre">
+                                        <div class="py-1">
+                                            <a href="#" class="col-12 col-sm-4 col-md-4 btn btn-warning text-black">Inscripción</a>
+                                        </div>
+                                        <div class="py-1">
+                                            <a href="https://drive.google.com/file/d/16nat9-Xo26bDSURTihzUQMg7QIlrQGhM/view?usp=sharing" class="col-12 col-sm-4  col-md-4 btn btn-warning text-black ">Reglamento</a>
+                                        </div>
+                                        <div class="py-1"> 
+                                            <a href="ExCepre.html" class="col-12 col-sm-4  col-md-4 btn btn-warning text-black ">Examen Vocacional</a>
+                                        </div>    
+                                    </div>
+                                </div>
+                        <div class="container py-4 text-light">
+                            <h6></h6>
+                        </div>
+                    </div>
+                    
+    <!--------------------------------------------------------------------------------------------------------------------------------------->
+                    <div class="container col-12 col-sm-12 col-md-7  " >
+                        
+                            <div class="py-4 text-light">
+                                <div class="container">
+                                    <div class="accordion accordion-flush" id="accordionFlushExample">
+                                        <div class="accordion-item">
+                                          <h2 class="accordion-header" id="flush-headingOne">
+                                            <button class="accordion-button collapsed text-bg-danger" type="button" data-bs-toggle="collapse" 
+                                            data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                                            <strong>CRONOGRAMA DE ACTIVIDADES</strong>
+                                            </button>
+                                          </h2>
+                                          <div id="flush-collapseOne" class="accordion-collapse collapse show" aria-labelledby="flush-headingOne" 
+                                          data-bs-parent="#accordionFlushExample">
+                                            <div class="accordion-body">
+                                                <img src="IMAGENES/1UNA/CONTADOR/infoPortadaGENERAL/GENERAL_CRONOGRAMA.png"
+                                                class="img img-5" alt="" width="100%">
+                                                </div>
+                                          </div>
+                                        </div>
+                                        <div class="accordion-item">
+                                          <h2 class="accordion-header" id="flush-headingTwo">
+                                            <button class="accordion-button collapsed text-bg-primary" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                                                <strong>TASAS EDUCATIVAS POR DERECHO DE ADMISIÓN</strong>
+                                            </button>
+                                          </h2>
+                                          <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                                            <div class="accordion-body">
+                                                <img src="IMAGENES/1UNA/CONTADOR/infoPortadaGENERAL/GENERAL_PAGOS.png"
+                                                class="img img-6" alt="" width="100%">
+                                                </div>
+                                          </div>
+                                        </div>
+                                        <div class="accordion-item">
+                                          <h2 class="accordion-header" id="flush-headingThree">
+                                            <button class="accordion-button collapsed  text-bg-warning " type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                                                <strong>CARRERAS PROFESIONALES CON EXAMEN VOCACIONAL</strong>
+                                            </button>
+                                          </h2>
+                                          <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                                            <div class="accordion-body">
+                                                <img src="IMAGENES/1UNA/CONTADOR/infoPortadaGENERAL/GENERAL_VOCACIONAL.png"
+                                                class="img img-7" alt="" width="100%">
+                                                </div>
+                                          </div>
+
+                                        </div>
+
+                                        <div class="accordion-item">
+                                            <h2 class="accordion-header" id="flush-headingFour">
+                                              <button class="accordion-button collapsed  text-bg-info " type="button" 
+                                              data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" 
+                                              aria-controls="flush-collapseFour">
+                                                  <strong>NÚMERO DE VACANTES PARA EL EXAMEN DE ADMISIÓN GENERAL</strong>
+                                              </button>
+                                            </h2>
+                                            <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour" 
+                                            data-bs-parent="#accordionFlushExample">
+                                              <div class="accordion-body">
+                                                  <img src="IMAGENES/1UNA/CONTADOR/infoPortadaGENERAL/GENERAL_VACANTES.jpg"
+                                                  class="img img-8" alt="" width="100%">
+                                                  </div>
+                                            </div>
+  
+                                          </div>
+                                      </div>
+                                </div>
+                            </div>
+                        
+                                       
+                    </div>
+
+            </div>
+        </div>
+    </div>
+
+<!---------------------------------------------------------------ESTILOS ZOOM------------------------------------------------------------>
+                <div class="container-img">
+                    <img src="" class="img-show"  alt="">
+                </div>    
+<!--------------------------------------------------------------------------------------------------------------------------------------->                
+</div>
+
+
+
+    <!-------------S E C S I O N  P I E   D E   P A G I N A------------->
+    <footer class="footer-all text-white" id="font-footer">
+        <!---------------------------------------------GRUPO 1-->
+        <div class="group-one">
+            <div class="box">
+                <h5><b>Contáctanos</b></h5>
+                
+                    <div class="d-flex flex-row">
+                        <div class="p-2"><i class="bi bi-building"></i></div>
+                        <div class="p-2"><h6 class="font-weight-bold titles-colors-direccion mb-3"
+                            >Dirección: Av. Floral N° 1153 - UNA PUNO. <br>
+                            Tercer Piso, Vicerectorado de Investigación  </h6></div>
+                    </div>
+
+
+                    <div class="d-flex flex-row">
+                        <div class="p-2"><i class="bi bi-envelope-fill"></i></div>
+                        <div class="p-2"><h6 class="font-weight-bold titles-colors-direccion mb-3"
+                            >Escribenos: <br> admision@unap.edu.pe</h6></div>
+                    </div>
+
+            </div>
+
+            
+        
+
+        <!---------------------------------------------GRUPO 2-->    
+            <div class="box">
+                <h5><b>Redes Sociales</b></h5>
+                    <div class="social-networks">
+                        <a href="https://www.facebook.com/dadunapuno" class="bi bi-facebook"></a>
+                        <a href="https://www.instagram.com/unapuno_oficial/" class="bi bi-instagram "></a>
+                        <a href="https://www.youtube.com/channel/UCEta0e663FgxvYgCABhGl6w" class="bi bi-youtube"></a>
+                        <a href="https://www.linkedin.com/school/universidad-nacional-del-altiplano/" class="bi bi-linkedin "></a>
+                        <a href="https://www.tiktok.com/@una_puno_oficial" class="bi bi-tiktok"></a>
+                    </div> 
+                    
+            </div>
+        <!---------------------------------------------GRUPO 3-->    
+            <div class="box">
+                <h5><b>Ubicación</b></h5>
+                    <div class="d-flex flex-row">
+                        <div class="p-2"><i class="bi bi-geo-alt-fill"></i></div>
+                        <div class="p-2"><h6 class="font-weight-bold titles-colors-direccion mb-3"
+                            >Google Maps</h6></div>
+                    </div>
+                <div class="responsive-iframe">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1193.6387507796326!2d-70.0173111269694!3d-15.824831952946639!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x915d69d15f665f99%3A0x4acadf74d11d2f62!2sDIRECCI%C3%93N%20DE%20ADMISI%C3%93N!5e1!3m2!1ses-419!2spe!4v1656198885016!5m2!1ses-419!2spe" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>    
+
+            </div>
+        </div>
+        <!---------------------------------------------GRUPO 2-->
+        <div class="group-two">
+            <small>&copy;2022 <b>Dirección de Admision</b> All Rights Reserved.</small>
+        </div>
+
+
+        
+    </footer>    
+        <!--Agregamos Javascrip de Bootstrap-->
+        <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>    
+        
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+        <!--AGREGAR BOOTSTRAP 5.2-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
+       
+        <script src="index.js"></script>
+        
+</body>
+</html>

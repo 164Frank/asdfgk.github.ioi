@@ -1,0 +1,59 @@
+<div class="row">
+                            <div class="col">
+                                <hr/>
+                               
+                                    <div class="container text-center">
+                                        
+                                        <h5>Relación de Ingresantes</h5>
+                                        <hr/>
+                                
+                                        <section class="row justify-content-center text-md-center">
+                                            <div class="col-10 col-md-10">
+                                                <a href="#" download="TEMARIO CEPRE UNA" class="btn btn-primary rounded-pill px-4">Descargar Temario</a>
+                                
+                                            </div>
+                                
+                                        </section>
+                                
+                                        
+                                        
+                                    </div>
+                                
+                                <hr/>
+                            </div>
+                            <div class="col">
+                                <hr/>
+                                
+                                    <div class="container text-center">
+                                        
+                                        <h5>Reglamento de Admisión</h5>
+                                        <hr/>
+                                
+                                        <section class="row justify-content-center text-md-center">
+                                            <div class="col-10 col-md-10">
+                                                <a href="#" download="TEMARIO CEPRE UNA" class="btn btn-primary rounded-pill px-4">Descargar Temario</a>
+                                
+                                            </div>
+                                
+                                        </section>
+                                
+                                        
+                                        
+                                    </div>
+                                
+                                <hr/>
+                            </div>
+
+                        </div>
+    ----------------------
+                        <div class="d-flex flex-row">
+                            <div class="p-2"><i class="fa-solid fa-paperclip"></i></div>
+                            <div class="p-2"><h1 class="font-weight-bold titles-colors mb-3">Campo Ocupacional</h1></div>
+                        </div>
+                      
+                        <h6 class="paragraph-aligned-ocupacional">El ámbito ocupacional incluye el sector público como el privado, 
+                            además de la generación de su propio empleo mediante la creación 
+                            de empresas y otros; Delimitado por las ocupaciones tecnológicas y 
+                            científicas de manera que posibiliten al profesional ser el conductor 
+                            central de la unidad operática dentro de las plantas
+                        </h6>

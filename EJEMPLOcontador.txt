@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AdmisionUNA2022</title>
+    <!--AGREGAR BOOTSTRAP-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <!----------SE ENLAZA BOOTSTRAP CON maincss.css------------>
+    <link rel="stylesheet" href="css/maincss.css">
+
+    <link rel="stylesheet" href="css/countercss.css">
+    <link rel="stylesheet" href="/css/counter2css.css">
+    <!-----------------AGREGAMOS FONT AWASOME---------------->
+    <script src="https://kit.fontawesome.com/89d9e04610.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+<!--B A R R A  D E  N A V E G A C I O N-->
+<!--bootstarp navbar-->
+    <nav class="navbar navbar-expand-lg" nav class="navbar navbar-light" style="background-color: #006cb1;"> 
+        <!--COMIENZO PARA CAMBIAR COLOR DE LA BARRA (navbar-light bg-light)
+        (cambiamos navbar-dark bg-dark por )=(nav class="navbar navbar-light" style="background-color: #006cb1;")-->
+        <div class="container"><!---agregamos contenedor (.container)-->
+            <!---ajustes para poner logo y tamaño de imagen-->
+            <a class="navbar-brand" href="/"><!--cambiamos # por un / para que nos lleve a la pagina inicial-->
+            <img src="/IMAGENES/logouna.png" alt="logo UNA" style="width: 120%;"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" 
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto"> <!--le agregamos (lm-auto) para que la navegacion este a la izquierda-->
+                <li class="nav-item"><!--ELIMINAMOS active-->
+                <a class="nav-link" href="/mainhtml.html">INICIO</a> <!--eliminamos <span class="sr-only">(current)</span>-->
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="carrerashtml.html">CARRERAS</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="#">EXAMEN CEPREUNA</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="PestañaGeneral.html">EXAMEN GENERAL</a>
+                </li>
+            </ul>
+            </div>
+        </div>        
+    </nav>
+<!--B A R R A  D E  N A V E G A C I O N-->
+
+<!--INICIO DE HEADER-->
+    <header class="main-header"><!--cabecera principal-->
+        <div class="background-overlay text-white py-5">
+            <div class="container" >
+                <div class="row">
+                    <div class="col-md-6 text-center justify-content-center align-self-center"><!--agregamos una nueva clase 
+                        (justify-content-center align-self-center)-->
+                        <h4>EXAMEN CEPRE UNA</h1>
+                        <h2>07 de agosto del 2022</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum illo non labore sint enim doloribus!
+                        </p>
+                        <a href="#" class="btn btn-outline-secondary btn-lg text-black ">MAS INFORMACION</a> 
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!------- FIN DE H E A D E R ------>
+<!----INICIO----AGREGAMOS UNA NUEVA SECCION PARA TARJETAS  
+      se tiene que corregir el tamaño de las tarjetas a un solo tamaño---->
+
+<!--------------------------------S E C C I O N      C O N T A D O R     O N E   --------------------------------------->
+
+    <div class="row py-5" id="CounterCepre">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h1 class="text-white p-2 text-center">EXAMEN CEPRE UNA 2022</h1>
+                    <div class="row text-center justify-content-center align-self-center">
+                        <div><a href="#" class="btn btn-warning btn-lg text-black my-2">Inscripción</a> </div>
+                        <div><a href="#" class="btn btn-warning btn-lg text-black ">Reglamento de admisión</a> </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+<!--------------------------------------------------------------------------------------------------------------------------------------->                    
+                    <section id="boxfechas" class="container">
+                        
+                        <div class="countbox">
+                            <div>
+                                <p id="days">00</p>
+                                <span>Dias</span>
+                            </div>
+                            <div>
+                                <p id="hours">00</p>
+                                <span>Horas</span>
+                            </div>
+                            <div>
+                                <p id="minutes">00</p>
+                                <span>Minutos</span>
+                            </div>
+                            <div>
+                                <p id="seconds">00</p>
+                                <span>Segundos</span>
+                            </div>
+                        </div>    
+
+                    </section>
+                    <section class="final-sms"><h2>Hoy es el Examen, Mucha Suerte</h2></section>
+<!--------------------------------------------------------------------------------------------------------------------------------------->
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!--------------------------------------------------------------------------------------------------------------------------------------->
+
+<!--------------------------------S E C C I O N      C O N T A D O R       T W O -------------------------------------->
+
+<div class="row py-2" id="CounterGeneral">
+    <div class="container">
+        <div class="row">
+           
+                <div class="col-md-9">
+    <!--------------------------------------------------------------------------------------------------------------------------------------->                    
+                    <section id="contgeneral" class="container">
+                        
+                        <div class="boxgeneral">
+                            <div>
+                                <p id="days2">00</p>  
+                                <span>Dias</span>
+                            </div>
+                            <div>
+                                <p id="hours2">00</p>
+                                <span>Horas</span>
+                            </div>
+                            <div>
+                                <p id="minutes2">00</p>
+                                <span>Minutos</span>
+                            </div>
+                            <div>
+                                <p id="seconds2">00</p>
+                                <span>Segundos</span>
+                            </div>
+                        </div>    
+
+                    </section>                
+                </div>
+<!--------------------------------------------------------------------------------------------------------------------------------------->
+                <div class="col-md-3">
+                    <h1 class="text-white p-2 text-center">EXAMEN GENERAL UNA 2022</h1>
+                    <div class="row text-center justify-content-center align-self-center">
+                    <div><a href="#" class="btn btn-warning btn-lg text-black my-2">Inscripción</a> </div>
+                    <div><a href="#" class="btn btn-warning btn-lg text-black ">Reglamento de admisión</a> </div>
+                </div>
+            </div>    
+<!--------------------------------------------------------------------------------------------------------------------------------------->
+        </div>
+    </div>
+</div>
+
+<!--------------------------------------------------------------------------------------------------------------------------------------->
+
+
+
+
+
+<!-------------S E C S I O N  P I E   D E   P A G I N A------------->
+    <footer class="footer-all text-white">
+        <!---------------------------------------------GRUPO 1-->
+        <div class="group-one">
+            <div class="box">
+                <h5><b>DIRECCIÓN DE ADMISIÓN UNA PUNO 2022</b></h5>
+                <p><b>Art.79° ROF</b></p>
+                <p>La Dirección de Admisión en un organo dependiente del Vicerectorado Academico, responsable de planear,
+                    normar y asesorar las distintas modalidades de procesos de admision y selección de postulantes de pregrado,
+                    posgrado y segunda especialización, así como de mantener actualizada la información de los procesos de admisión.
+                </p>
+            </div>
+            <div class="box">
+                <h5><b>REDES SOCIALES</b></h5>
+                    <div class="social-networks">
+                        <a href="#" class="fa-brands fa-facebook-square"></a>
+                        <a href="#" class="fa-brands fa-youtube"></a>
+                        <a href="#" class="fa-brands fa-linkedin"></a>
+                    </div>
+            </div>
+            <div class="box">
+                <figure>
+                    <a href="#">
+                        <img src="IMAGENES/rsz_logodad.png" alt="logoUna">
+                    </a>
+                </figure>
+            </div>
+        </div>
+        <!---------------------------------------------GRUPO 2-->
+        <div class="group-two">
+            <small>&copy;2022 <b>Dirección de Admision</b> All Rights Reserved.</small>
+        </div>
+
+
+        
+    </footer>
+        <!--Agregamos Javascrip de Bootstrap-->
+        <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+    
+        <script src="/js/counter1js.js"></script>
+        <script src="/js/counter2js.js"></script>
+</body>
+</html>
+
+-------------------------------------------------------------------------------------------------------
+slide de IMAGENES--------------
+------------------------------------------------------------------------------------------------------
+ <div class="carousel slide" id="carousel-electronic" data-ride="carousel">
+
+            <!-----------TEXTO CON CONTAINER----------->
+            
+                <!----INDICADORES---->
+                <ol class="carousel-indicators">
+
+                    <li data-ride="#carousel-electronic" data-slide-to="0" class="active"></class></li>
+                    <li data-ride="#carousel-electronic" data-slide-to="1"></class></li>
+                    <li data-ride="#carousel-electronic" data-slide-to="2"></class></li>
+                    <li data-ride="#carousel-electronic" data-slide-to="3"></class></li>
+                </ol> 
+            
+                    <div class="carousel-inner "> 
+                        <!--------------------------->
+
+                        <div class="carousel-caption ">
+                            <div class="main-header">
+                    
+                                <div class="container ">
+                                    <div class="row d-flex justify-content-center align-items-center text-center">
+                                        <div class="col-md-6  ">
+                                            <div class="title-portada" >
+                                                INGENIERIA  ELECTRONICA
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>     
+                            </div>  
+                        </div>
+                            
+                            <div class="carousel-item active">
+                                <img src="/IMAGENES/ELECTRONICA/PORTADA IMAGENES/1.jpg" alt="" class="d-block w-100"> <!----d-block= display blog-->
+                            </div>
+                            <div class="carousel-item ">
+                                <img src="/IMAGENES/ELECTRONICA/PORTADA IMAGENES/2.jpg" alt="" class="d-block w-100"> <!----d-block= display blog-->
+                            </div>
+                            <div class="carousel-item">
+                                <img src="/IMAGENES/ELECTRONICA/PORTADA IMAGENES/3.jpg" alt="" class="d-block w-100"> <!----d-block= display blog-->
+                            </div>
+                            <div class="carousel-item ">
+                                <img src="/IMAGENES/ELECTRONICA/PORTADA IMAGENES/4.jpg" alt="" class="d-block w-100"> <!----d-block= display blog-->
+                            </div>
+                    </div>        
+        </div>
+        

@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="/IMAGENES/logodad.png">
+    <title>Examen General</title>
+    <!--AGREGAR BOOTSTRAP-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!----------SE ENLAZA BOOTSTRAP CON maincss.css------------>
+    
+
+    <link rel="stylesheet" href="css/GeneralCount.css">
+     <!-----------------AGREGAMOS ICONOS DE BOOTSTRAP---------------->
+
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Electrolize&display=swap" rel="stylesheet">
+
+
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+    <!-----------------AGREGAMOS FONT AWASOME---------------->
+    <script src="https://kit.fontawesome.com/89d9e04610.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+<!--B A R R A  D E  N A V E G A C I O N---------INICIO-->
+<!--bootstarp navbar-->
+    <nav class="navbar navbar-expand-lg navbar-dark sticky-top"> 
+        <!--COMIENZO PARA CAMBIAR COLOR DE LA BARRA (navbar-light bg-light)
+        (cambiamos navbar-dark bg-dark por )=(nav class="navbar navbar-light" style="background-color: #006cb1;")-->
+        <div class="container"><!---agregamos contenedor (.container)-->
+            <!---ajustes para poner logo y tamaño de imagen-->
+            <a class="navbar-brand" href="/"><!--cambiamos # por un / para que nos lleve a la pagina inicial-->
+            <img src="/IMAGENES/logouna.png" alt="logo UNA" style="width: 120%;" ></a>
+            <button 
+                    
+                    class="navbar-toggler" 
+                    data-toggle="collapse" 
+                    data-target="#navbarNav" 
+                    aria-controls="navbarNav"
+                    aria-expanded="false"> 
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto"> <!--le agregamos (lm-auto) para que la navegacion este a la izquierda-->
+                <li class="nav-item"><!--ELIMINAMOS active-->
+                     <a class="nav-link " href="/index.html">INICIO</a> <!--eliminamos <span class="sr-only">(current)</span>-->
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link " href="carrerashtml.html">CARRERAS</a>
+                </li>
+
+                <!---SUB ELEMENTOS--INICIO-->
+                <li class="nav-item dropdown fw-bold">
+                    <a 
+                    class="nav-link dropdown-toggle" 
+                    id="btn-dropdown-pregrado" 
+                    data-toggle="dropdown" 
+                    aria-haspopup="true" 
+                    aria-expanded="false" 
+                    href="#"
+                    >PREGRADO</a>
+                    <!---SUB ELEMENTOS---CONTENIDO---INICIO-->
+                    <div class="dropdown-menu" aria-labelledby="btn-dropdown-pregrado">
+                        <a href="ExCepre.html" class="dropdown-item">Examen CEPREUNA</a>
+                        <a href="ExGeneral.html" class="dropdown-item">Examen GENERAL</a>
+                        
+                        <a href="ProAnteriores.html" class="dropdown-item">PROCESOS DE ADMISIÓN ANTERIORES</a>
+
+                    </div>
+                    <!---SUB ELEMENTOS---CONTENIDO---FIN-->
+                </li>
+                <!---SUB ELEMENTOS--FIN-->
+
+
+                <li class="nav-item">
+                    <a class="nav-link " href="http://posgradounap.pe/">POSGRADO</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link " href="CounterGeneral">SEGUNDA ESPECIALIDAD</a>
+                </li>
+            </ul>
+            </div>
+        </div>        
+    </nav>
+<!--B A R R A  D E  N A V E G A C I O N-----FIN---->
+   
+
+<!--INICIO DE HEADER-->
+    <header class="main-header"><!--cabecera principal-->
+        <div class="background-overlay text-white py-1">
+            <div class="container" >
+                
+                    <div class="text-center justify-content-center align-self-center text-white"
+                    id="CounterCepreUNA">
+                        
+                        <h2>EXAMEN GENERAL UNA</h2>
+                        <h4>13 y 14 de agosto del 2022</h4>
+                        
+                    </div>
+
+                    <div>
+                        <section id="boxfechas" class="container">
+                        
+                            <div class="countbox">
+                                <div>
+                                    <p id="days">00</p>
+                                    <span>Dias</span>
+                                </div>
+                                <div>
+                                    <p id="hours">00</p>
+                                    <span>Horas</span>
+                                </div>
+                                <div>
+                                    <p id="minutes">00</p>
+                                    <span>Minutos</span>
+                                </div>
+                                <div>
+                                    <p id="seconds">00</p>
+                                    <span>Segundos</span>
+                                </div>
+                            </div>    
+                        </section>
+                    </div>
+                
+            </div>
+        </div>
+    </header>
+
+    <!------- FIN DE H E A D E R ------>
+<!--------------------------------A S I G N A T U R A S-------------------------------------->
+<hr/>
+<div class="row p-2" id="#">
+    <div class="container text-center">
+        
+        <H3>CONTENIDO DE LAS ASIGNATURAS-EXAMEN GENERAL UNA PUNO</H3>
+        <hr/>
+
+        <section class="row justify-content-center text-md-center">
+            <div class="col-10 col-md-10">
+                <a href="#" download="TEMARIO CEPRE UNA" class="btn btn-primary rounded-pill px-4">Descargar Temario</a>
+
+            </div>
+
+        </section>
+
+        
+        
+    </div>
+</div>
+<hr/>
+<!--------------------------------------------------------------------------------------------------------------------------------------->
+
+<!--------------------------------------------------------------------------------------------------------------------------------------->
+
+
+
+
+
+<!-------------FOOTER------------------>   
+    <!-------------S E C S I O N  P I E   D E   P A G I N A------------->
+    <footer class="footer-all text-white" id="font-footer">
+        <!---------------------------------------------GRUPO 1-->
+        <div class="group-one">
+            <div class="box">
+                <h5><b>Contáctanos</b></h5>
+                
+                    <div class="d-flex flex-row">
+                        <div class="p-2"><i class="bi bi-building"></i></div>
+                        <div class="p-2"><h6 class="font-weight-bold titles-colors-direccion mb-3"
+                            >Dirección: Av. Floral N° 1153 - UNA PUNO. <br>
+                            Tercer Piso, Vicerectorado de Investigación  </h6></div>
+                    </div>
+
+
+                    <div class="d-flex flex-row">
+                        <div class="p-2"><i class="bi bi-envelope-fill"></i></div>
+                        <div class="p-2"><h6 class="font-weight-bold titles-colors-direccion mb-3"
+                            >Escribenos: <br> admision@unap.edu.pe</h6></div>
+                    </div>
+
+            </div>
+
+            
+        
+
+        <!---------------------------------------------GRUPO 2-->    
+            <div class="box">
+                <h5><b>Redes Sociales</b></h5>
+                    <div class="social-networks">
+                        <a href="https://www.facebook.com/dadunapuno" class="bi bi-facebook"></a>
+                        <a href="https://www.instagram.com/unapuno_oficial/" class="bi bi-instagram "></a>
+                        <a href="https://www.youtube.com/channel/UCEta0e663FgxvYgCABhGl6w" class="bi bi-youtube"></a>
+                        <a href="https://www.linkedin.com/school/universidad-nacional-del-altiplano/" class="bi bi-linkedin "></a>
+                        <a href="https://www.tiktok.com/@una_puno_oficial" class="bi bi-tiktok"></a>
+                    </div> 
+                    
+            </div>
+        <!---------------------------------------------GRUPO 3-->    
+            <div class="box">
+                <h5><b>Ubicación</b></h5>
+                    <div class="d-flex flex-row">
+                        <div class="p-2"><i class="bi bi-geo-alt-fill"></i></div>
+                        <div class="p-2"><h6 class="font-weight-bold titles-colors-direccion mb-3"
+                            >Google Maps</h6></div>
+                    </div>
+                <div class="responsive-iframe">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1193.6387507796326!2d-70.0173111269694!3d-15.824831952946639!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x915d69d15f665f99%3A0x4acadf74d11d2f62!2sDIRECCI%C3%93N%20DE%20ADMISI%C3%93N!5e1!3m2!1ses-419!2spe!4v1656198885016!5m2!1ses-419!2spe" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>    
+
+            </div>
+        </div>
+        <!---------------------------------------------GRUPO 2-->
+        <div class="group-two">
+            <small>&copy;2022 <b>Dirección de Admision</b> All Rights Reserved.</small>
+        </div>
+
+
+        
+    </footer>    
+    
+        <!--Agregamos Javascrip de Bootstrap-->
+        <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>    
+        
+        <script src="js/counterGENERAL.js"></script>
+       
+</body>
+</html>

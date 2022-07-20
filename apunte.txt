@@ -1,0 +1,414 @@
+<div class="d-flex justify-content-center align-items-center flex-column py-5 text-white ">
+(PARA HACER QUE EL TEXTO ESTE CENTRADO
+-Align items
+-Justify content
+-flex-column "PARA QUE ESTEN EN SUS RESPECTIVAS FILAS)
+------------------------
+ <ul class="nav justify-content-center">
+                            <li class="nav-item">
+                              <a class="nav-link active" aria-current="page" href="#">Active</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link" href="#">Link</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link" href="#">Link</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                            </li>
+                          </ul>
+
+----------------------------HACER QUE TODAS LAS IMAGENES EN EL CARD ESTEN ALINEADAS------------------
+1 ELIMINAMOS LA CLASE IMAGEN CON LA QUE VIENE POR DEFECTO 
+Y AGREGAMOS UN DIV EN EN EL ESPACIO DE LA IMAGEN:
+<img src="/IMAGENES/SISTEMAS/EscuelaSistemas.jpg" class="card-img-top" alt="Escuela de Ingenieria Electronica">
+-------------------
+<div class="col-12 col-sm-6 col-md-4 col-lg-3 mt-2">
+                <div class="card text-center bg-danger text-white">
+                     
+                    <div class="card-body">
+                        <h3 class="card-colors">PORQUE ESTUDIAR EN LA UNA PUNO</h3>
+                        <P class="card-colors-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestiae, rem.</P>
+                    </div>
+                </div>
+            </div>  
+            --------------
+<div class="col-md-6 text-center justify-content-center align-self-center"><!--agregamos una nueva clase 
+                            (justify-content-center align-self-center)-->
+                            <h1>ESCUELA PROFESIONAL DE INGENIERIA ELECTRONICA</h1>
+                            <h2>FACULDAD DE INGENIERIA MECANICA ELECTRICA, ELECTRONICA Y SISTEMAS</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum illo non labore sint enim doloribus!
+                            </p>
+                            <a href="#" class="btn btn-outline-secondary btn-lg text-black ">MAS INFORMACION</a> 
+                        </div>
+                        
+-------------------
+ <div class="background-overlay text-white py-5">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12 col-sm-6 col-md-4 col-lg-3 mt-2">
+                                <div class="card text-white bg-dark mb-3" style="max-width: 30rem;">
+                                    <div class="card-header">AREA INGENIERIA</div>
+                                    <div class="card-body">
+                                    <h5 class="card-title">ESCUELA PROFESIONAL DE INGENIERIA ELECTRONICA</h5>
+                                    <p class="card-text">FACULDAD DE INGENIERIA MECANICA ELECTRICA, ELECTRONICA Y SISTEMAS.</p>
+                                    </div>
+                                </div>
+                            </div>  
+                        </div>
+                    </div>
+                </div>   
+
+
+----------------------
+<div class="card w-50">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                  <a href="#" class="btn btn-primary">Button</a>
+                </div>
+              </div>
+              --------                
+
+               <header class="main-header-electronica"><!--cabecera principal-->
+            <div class="container py-4">
+                <div class="card" style="width: 30rem;">
+                    <div class="card-body">
+                    <h5 class="card-title">Special title treatment</h5>
+                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+            </div>    
+        </header>
+
+
+-------------------------
+
+
+
+<div class="row align-items-center">
+    <div class="col">
+      One of three columns
+    </div>
+</div>
+----------------------
+<div class="container mt-5 mb-5">
+                <img src="/IMAGENES/ELECTRONICA/RESIZE/server.png" alt="" height="300" class="float-right">
+                <h4>PERFIL PROFESIONAL</h4>
+                <P>
+                    Presenta profesionales con la formacion y calidad en las dos orientaciones de la Ingenieria Electronica; 
+                    "Telecomunicaciones y Telematica" y "Automatizacion e instrumentacion"; Implementando Proyectos integrales
+                     electronicos en sistemas analogicos y digitales.Aplica procesadores de texto, paquetes de simulacion o diseño,
+                      gestores de proyectos en la ejecucion de su trabajo.
+                </P>
+
+            </div>
+--------------
+<div class="container mt-5 mb-5">     
+    <img src="/IMAGENES/ELECTRONICA/RESIZE/server.png" alt="" height="300" class="float-right">
+      <div class="row align-items-center">
+          <div class="col">
+           <h4>PERFIL PROFESIONAL</h4>
+                <P>
+                    Presenta profesionales con la formacion y calidad en las dos orientaciones de la Ingenieria Electronica; 
+                    "Telecomunicaciones y Telematica" y "Automatizacion e instrumentacion"; Implementando Proyectos integrales
+                     electronicos en sistemas analogicos y digitales.Aplica procesadores de texto, paquetes de simulacion o diseño,
+                      gestores de proyectos en la ejecucion de su trabajo.
+                </P>
+          </div>
+      </div>
+</div>
+
+
+-------------------------------------------
+<header class="main-header-electronica"><!--cabecera principal-->
+            <div class="container py-5">
+                <div class="card" style="width: 40rem;">
+                    <div class="card-body">
+                        <div class="card-body">
+                            <h2 class="card-title">INGENIERIA ELECTRONICA</h2>
+                            <h5 class="card-text">Facultad de Ingenieria Mecanica Elctrica, Electronica y Sistemas</h5>
+                    </div>
+                </div>
+            </div>   
+        </header
+
+
+
+<!------CARRUSEL DE IMAGENES-------->  
+    <div class="Carousel slide" id="carousel-01" data-ride="carousel" >
+        <div class="carousel-inner">
+                    
+                    <div class="carousel-item active">
+                        <img src="/IMAGENES/ELECTRONICA/RESIZE/5.png" alt="" class="d-block w-100"> <!----d-block= display blog-->
+                    </div>
+                    <div class="carousel-item ">
+                        <img src="/IMAGENES/ELECTRONICA/RESIZE/3.png" alt="" class="d-block w-100"> <!----d-block= display blog-->
+                    </div>
+                    <div class="carousel-item">
+                        <img src="/IMAGENES/ELECTRONICA/RESIZE/2.png" alt="" class="d-block w-100"> <!----d-block= display blog-->
+                    </div>
+                    <div class="carousel-item ">
+                        <img src="/IMAGENES/ELECTRONICA/RESIZE/4.png" alt="" class="d-block w-100"> <!----d-block= display blog-->
+                    </div>
+        </div>
+                
+    </div>
+<!------CARRUSEL DE IMAGENES-------->
+ <!----INDICADORES---->
+        <ol class="carousel-indicators">
+
+            <li data-ride="#carouselMov" data-slide-to="0" class="active"></class></li>
+            <li data-ride="#carouselMov" data-slide-to="1"></class></li>
+            <li data-ride="#carouselMov" data-slide-to="2"></class></li>
+            <li data-ride="#carouselMov" data-slide-to="3"></class></li>
+        </ol>        
+ ---------------------------------------------------------------------------------------------------------------------------------------------
+ CUADRADOS DE ACERCA DE 
+ ----------------------------------------------------------------------------------------------------------------------------------
+ <section class="py-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 mt-2">
+                <div class="card text-center bg-danger text-white">
+                     
+                    <div class="card-body">
+                        <h3 class="card-colors">PORQUE ESTUDIAR EN LA UNA PUNO</h3>
+                        <P class="card-colors-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestiae, rem.</P>
+                    </div>
+                </div>
+            </div>  
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 mt-2">
+                <div class="card text-center bg-primary text-white">
+                     <!-------se esta agregando para igualar las tarjetas de colores-->
+                    <div class="card-body">
+                        <h3 class="card-colors">UNA PUNO RANKING, MEJORES UNIVERSIDADES</h3>
+                        <P class="card-colors-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestiae, rem.</P>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 mt-2">
+                <div class="card text-center bg-success text-white">
+                    
+                    <div class="card-body">
+                        <h3 class="card-colors">EXAMEN VOCACIONAL</h3>
+                        <P class="card-colors-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestiae, rem.</P>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 mt-2">
+                <div class="card text-center bg-warning text-white">
+                    
+                    <div class="card-body">
+<!-----PROBLEMA-------se le agrego: class="card-colors" y "card-colors-text" a ambos textos -->
+                        <h3 class="card-colors">SIMULADOR DE EXAMEN DE ADMISION V1</h3>
+                        <P class="card-colors-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestiae, rem.</P>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</section>
+-------------------------------------------------------------------------------------------------------------------------------------
+C O D I G O      C O N      C A J A        D E       C O L O R E S
+---------------------------------------------------------------------------------------------------------------------------
+<section class="py-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 mt-2">
+                <div class="card text-center bg-danger text-white">
+                     
+                    <div class="card-body">
+                        <h3 class="card-colors">PORQUE ESTUDIAR EN LA UNA PUNO</h3>
+                        <P class="card-colors-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestiae, rem.</P>
+                    </div>
+                </div>
+            </div>  
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 mt-2">
+                <div class="card text-center bg-primary text-white">
+                     <!-------se esta agregando para igualar las tarjetas de colores-->
+                    <div class="card-body">
+                        <h3 class="card-colors">UNA PUNO RANKING, MEJORES UNIVERSIDADES</h3>
+                        <P class="card-colors-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestiae, rem.</P>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 mt-2">
+                <div class="card text-center bg-success text-white">
+                    
+                    <div class="card-body">
+                        <h3 class="card-colors">EXAMEN VOCACIONAL</h3>
+                        <P class="card-colors-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestiae, rem.</P>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 mt-2">
+                <div class="card text-center bg-warning text-white">
+                    
+                    <div class="card-body">
+<!-----PROBLEMA-------se le agrego: class="card-colors" y "card-colors-text" a ambos textos -->
+                        <h3 class="card-colors">SIMULADOR DE EXAMEN DE ADMISION V1</h3>
+                        <P class="card-colors-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestiae, rem.</P>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</section>
+----------------------------------------------------------------------------------------------------------------------------------- 
+SECCION DE MEJOR UNIVERSIDAD Y DEMAS COSAS
+-------------------------------------------------------------------------------------------------------------------------------------------------
+<!-----------NUEVA SECCION PARA IMAGEN Y TEXTO------->
+<section>
+    <div class="cover d-flex justify-content-end align-items-around flex-column text-white p-5">
+       <div class="col-md-5">
+        <div class="card-body">
+            <h3>26 CARRERAS PROFESIONALES ACREDITADAS</h3>
+             <p>
+            La universidad Nacional del Altiplano, es lider a nivel nacional en acreditación 
+            universitaria, con 26 carreras certificadas por el SINEACE, demostrando su alto nivel nacional.
+            </p>
+            <h4>
+                PASANTIA ESTUDIANTIL A HARVARD
+            </h4>
+            <P>
+                Un total de 70 estudiantes de las 35 escuelas profesionales visitaron la universidad de Harvard 
+                en los Estados Unidos,una de las mejores universidades del mundo, gracias al convenio entre 
+                el Ministerio de la Educacion, LASPAU HARVARD y la UNA PUNO   
+            </P>
+        </div>
+        </div>
+       </div>
+    </div>
+</section>
+<!---NUEVA SECCION PARA RECTANGULO DE INFORMACION-->
+<section class="bg-light text-center">
+    <div class="container">
+        <div class="row">
+            <div class="m-5">
+                <h5>UNIVERSIDAD NACIONAL DEL ALTIPLANO,
+                     PRIMERA EN INVESTIGACION Y DESARROLLO TECNOLOGICO</h5>
+                     <P>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Quae a praesentium harum laudantium nihil laborum quod eligendi
+                        minus deleniti sed autem eveniet atque, optio excepturi,
+                        in doloribus ipsum culpa numquam.</P>
+            </div>
+        </div>
+    </div>
+</section>
+<!----FIN ----AGREGAMOS UNA NUEVA SECCION PARA TARJETAS-->
+------------------------------------------------------------------------------------------------------------------------------------------------------
+SECCION DEL CONTADOR GENERAL
+<!--------------------------------S E C C I O N      C O N T A D O R       T W O -------------------------------------->
+
+<div class="row py-2" id="CounterGeneral">
+    <div class="container">
+        <div class="row">
+           
+                <div class="col-md-9">
+    <!--------------------------------------------------------------------------------------------------------------------------------------->                    
+                    <section id="boxfechas2" class="container">
+                        
+                        <div class="countbox2">
+                            <div>
+                                <p id="days2">00</p>
+                                <span>Dias</span>
+                            </div>
+                            <div>
+                                <p id="hours2">00</p>
+                                <span>Horas</span>
+                            </div>
+                            <div>
+                                <p id="minutes2">00</p>
+                                <span>Minutos</span>
+                            </div>
+                            <div>
+                                <p id="seconds2">00</p>
+                                <span>Segundos</span>
+                            </div>
+                        </div>    
+
+                    </section>                
+                </div>
+<!--------------------------------------------------------------------------------------------------------------------------------------->
+                <div class="col-md-3">
+                    <h1 class="text-white p-2 text-center">EXAMEN GENERAL UNA 2022</h1>
+                    <div class="row text-center justify-content-center align-self-center">
+                    <div><a href="#" class="btn btn-warning btn-lg text-black my-2">Inscripción</a> </div>
+                    <div><a href="#" class="btn btn-warning btn-lg text-black ">Reglamento de admisión</a> </div>
+                </div>
+            </div>    
+<!--------------------------------------------------------------------------------------------------------------------------------------->
+        </div>
+    </div>
+</div>
+
+<!--------------------------------------------------------------------------------------------------------------------------------------->
+
+estilos del CONTADOR
+
+/*COMIENZA ESTILOS DEL CONTADOR***/
+
+#boxfechas{
+    width: 60%;
+    min-height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; 
+    
+}
+.countbox{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    flex-wrap: wrap;
+} 
+.countbox div{
+    display: grid;
+    place-items: center;
+    padding: 1px;
+    
+}
+.countbox p{
+    display: grid;
+    place-items: center;
+    border: solid 1px #fff;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    color: #fff;
+    font-size: 2rem;
+    font-weight: bold;
+    background-color: black;
+}
+.countbox span{
+    display: block;
+    padding: 10px;
+    text-align: center;
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: 400px;
+}
+.final-sms{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    display: grid;
+    place-items: center;
+    transform: translateY(-100%);
+    transition: ease-in-out 0.5s;
+    
+}
+.final-sms h2{
+    text-align: center;
+    font-size: 70px;
+    color: #fff;
+}
+--------------------------------
